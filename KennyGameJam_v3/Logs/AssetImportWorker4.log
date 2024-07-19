@@ -623,3 +623,8 @@ Received Import Request.
 Start importing Assets/kenney_shape-characters/PNG/Default/yellow_body_rhombus.png using Guid(2ecf9cdcce6efa543a3a951f764da8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f85c6f2baa7b9028b9e69026a9cb1db') in 0.009406 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
