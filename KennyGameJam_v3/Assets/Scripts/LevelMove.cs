@@ -7,6 +7,20 @@ public class LevelMove : MonoBehaviour
 {
     public int nextLevelIndex;
 
+    public static LevelMove instance;
+
+    private void Awake() {
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D other) {
         print("Triggered");
 
