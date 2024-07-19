@@ -11,10 +11,10 @@ TagManager:
   - 
   - Water
   - UI
+  - 
+  - Collisions
   - Ground
-  - 
-  - 
-  - 
+  - Foreground
   - 
   - 
   - 
@@ -40,4 +40,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Collisions_layer
+    uniqueID: 1167494755
+    locked: 0
+  - name: Background
+    uniqueID: 3124476849
+    locked: 0
+  - name: Player
+    uniqueID: 2066711291
+    locked: 0
+  - name: Foreground
+    uniqueID: 3706050965
     locked: 0

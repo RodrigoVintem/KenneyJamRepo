@@ -622,7 +622,7 @@ MonoBehaviour:
   groundCheck: {fileID: 116205986}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 0
 --- !u!61 &953365226
 BoxCollider2D:
   m_ObjectHideFlags: 0
