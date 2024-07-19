@@ -12,10 +12,12 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D rb;
     private bool isGrounded;
+    private Vector3 originalScale;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        originalScale = transform.localScale; 
     }
 
     void Update()
@@ -34,11 +36,11 @@ public class PlayerMovement : MonoBehaviour
         }
         if(rb.velocity.x > 0)
         {
-            transform.Rotate(0, 0, 0);
+            transform.localScale = new Vector3(Mathf.Abs(originalScale.x), originalScale.y, originalScale.z);
         }
         if(rb.velocity.x < 0)
         {
-            transform.Rotate(0, -180, 0);
+            transform.localScale = new Vector3(-Mathf.Abs(originalScale.x), originalScale.y, originalScale.z);
         }
         if(rb.velocity.x != 0)
         {
