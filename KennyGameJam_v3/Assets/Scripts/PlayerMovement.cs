@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        // Check if the player is grounded
+        // bla bla
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
 
         // Handle movement
