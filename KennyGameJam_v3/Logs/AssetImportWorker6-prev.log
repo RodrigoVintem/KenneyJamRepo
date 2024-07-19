@@ -1,0 +1,1150 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.25f1 (530ae0ba3889) revision 5442272'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.17763) 64bit EnterpriseS' Language: 'ru' Physical Memory: 16234 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2022.3.25f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+D:/GitHub/KenneyJamRepo/KennyGameJam_v3
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+56072
+Successfully changed project path to: D:/GitHub/KenneyJamRepo/KennyGameJam_v3
+D:/GitHub/KenneyJamRepo/KennyGameJam_v3
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19636] Host "[IP] 192.168.31.25 [Port] 0 [Flags] 2 [Guid] 1440836037 [EditorId] 1440836037 [Version] 1048832 [Id] WindowsEditor(7,Computer) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19636] Host "[IP] 192.168.31.25 [Port] 0 [Flags] 2 [Guid] 1440836037 [EditorId] 1440836037 [Version] 1048832 [Id] WindowsEditor(7,Computer) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 6.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.25f1 (530ae0ba3889)
+[Subsystems] Discovering subsystems at path D:/2022.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/KenneyJamRepo/KennyGameJam_v3/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c91)
+    Vendor:   NVIDIA
+    VRAM:     2996 MB
+    Driver:   31.0.15.4626
+Initialize mono
+Mono path[0] = 'D:/2022.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2022.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2022.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2022.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002540 seconds.
+- Loaded All Assemblies, in  0.371 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.301 seconds
+Domain Reload Profiling: 672ms
+	BeginReloadAssembly (102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (101ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (165ms)
+				TypeCache.ScanAssembly (151ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (301ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (234ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (165ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.662 seconds
+Refreshing native plugins compatible for Editor in 4.24 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.970 seconds
+Domain Reload Profiling: 1632ms
+	BeginReloadAssembly (155ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (411ms)
+		LoadAssemblies (273ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (224ms)
+			TypeCache.Refresh (186ms)
+				TypeCache.ScanAssembly (168ms)
+			ScanForSourceGeneratedMonoScriptInfo (27ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (970ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (765ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (629ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 2.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4048 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 64 unused Assets / (61.5 KB). Loaded Objects now: 4512.
+Memory consumption went from 147.7 MB to 147.7 MB.
+Total: 3.546500 ms (FindLiveObjects: 0.279600 ms CreateObjectMapping: 0.196500 ms MarkObjects: 2.957500 ms  DeleteObjects: 0.112200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/ClickParticle.cs: 38eb6c6764f735ad4e70dbb7650529e3 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.450 seconds
+Refreshing native plugins compatible for Editor in 2.69 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.291 seconds
+Domain Reload Profiling: 1740ms
+	BeginReloadAssembly (168ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (200ms)
+		LoadAssemblies (259ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1292ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (797ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (663ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 3.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4024 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.2 KB). Loaded Objects now: 4517.
+Memory consumption went from 143.9 MB to 143.8 MB.
+Total: 5.766500 ms (FindLiveObjects: 0.292400 ms CreateObjectMapping: 0.448000 ms MarkObjects: 4.950600 ms  DeleteObjects: 0.074100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/ClickParticle.cs: 38eb6c6764f735ad4e70dbb7650529e3 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.445 seconds
+Refreshing native plugins compatible for Editor in 2.96 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.278 seconds
+Domain Reload Profiling: 1723ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (196ms)
+		LoadAssemblies (269ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1279ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (816ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (680ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 3.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4024 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.3 KB). Loaded Objects now: 4521.
+Memory consumption went from 145.8 MB to 145.8 MB.
+Total: 5.631900 ms (FindLiveObjects: 0.476800 ms CreateObjectMapping: 0.335800 ms MarkObjects: 4.746000 ms  DeleteObjects: 0.072300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/ClickParticle.cs: 38eb6c6764f735ad4e70dbb7650529e3 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.473 seconds
+Refreshing native plugins compatible for Editor in 2.62 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.223 seconds
+Domain Reload Profiling: 1696ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (208ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1224ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (751ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (630ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 3.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4024 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.3 KB). Loaded Objects now: 4525.
+Memory consumption went from 147.7 MB to 147.7 MB.
+Total: 4.435300 ms (FindLiveObjects: 0.357100 ms CreateObjectMapping: 0.380400 ms MarkObjects: 3.637400 ms  DeleteObjects: 0.059300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/ClickParticle.cs: 38eb6c6764f735ad4e70dbb7650529e3 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.436 seconds
+Refreshing native plugins compatible for Editor in 4.38 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.285 seconds
+Domain Reload Profiling: 1720ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (187ms)
+		LoadAssemblies (260ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1285ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (786ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (661ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 3.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4024 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.4 KB). Loaded Objects now: 4529.
+Memory consumption went from 149.7 MB to 149.6 MB.
+Total: 6.464700 ms (FindLiveObjects: 0.504800 ms CreateObjectMapping: 0.368100 ms MarkObjects: 5.507200 ms  DeleteObjects: 0.083200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/ClickParticle.cs: 38eb6c6764f735ad4e70dbb7650529e3 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.455 seconds
+Refreshing native plugins compatible for Editor in 3.59 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.150 seconds
+Domain Reload Profiling: 1605ms
+	BeginReloadAssembly (178ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (199ms)
+		LoadAssemblies (275ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1151ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (700ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (575ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 2.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4024 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.3 KB). Loaded Objects now: 4533.
+Memory consumption went from 151.6 MB to 151.6 MB.
+Total: 3.917400 ms (FindLiveObjects: 0.490700 ms CreateObjectMapping: 0.369500 ms MarkObjects: 2.987000 ms  DeleteObjects: 0.068600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/ClickParticle.cs: 38eb6c6764f735ad4e70dbb7650529e3 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20077.527563 seconds.
+  path: Assets/Animations/QuitButtonAnimation.controller
+  artifactKey: Guid(02454ba293120ed4aad119f84064667b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/QuitButtonAnimation.controller using Guid(02454ba293120ed4aad119f84064667b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eb6ec882f80253e73c0e194ed9f932b') in 0.359091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.449 seconds
+Refreshing native plugins compatible for Editor in 2.74 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.270 seconds
+Domain Reload Profiling: 1720ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (204ms)
+		LoadAssemblies (277ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1271ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (768ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (637ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 4.30 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4023 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (35.3 KB). Loaded Objects now: 4538.
+Memory consumption went from 153.3 MB to 153.3 MB.
+Total: 4.869200 ms (FindLiveObjects: 0.379500 ms CreateObjectMapping: 0.373100 ms MarkObjects: 4.031500 ms  DeleteObjects: 0.083800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/ClickParticle.cs: 38eb6c6764f735ad4e70dbb7650529e3 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 370.595018 seconds.
+  path: Assets/kenney_puzzle-pack-2/Preview.png
+  artifactKey: Guid(4cfe3d1421bb42e4bbf58bc17b7c8cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/Preview.png using Guid(4cfe3d1421bb42e4bbf58bc17b7c8cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab03d69a795b4f41e250586c7d40899') in 0.117653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/kenney_puzzle-pack-2/Sample2.png
+  artifactKey: Guid(fecef860465a5c343b15a2bdb00af9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/Sample2.png using Guid(fecef860465a5c343b15a2bdb00af9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9a0c901c06b46a150c9bb71df5488f') in 0.010511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/kenney_puzzle-pack-2/Sample4.png
+  artifactKey: Guid(5e2dd5adc9a7f84408b569014930c57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/Sample4.png using Guid(5e2dd5adc9a7f84408b569014930c57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43dd79856100b82f797c9ad0205ef176') in 0.008789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.738445 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG
+  artifactKey: Guid(688627acc940ad34ba26b62b7d1573be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG using Guid(688627acc940ad34ba26b62b7d1573be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678ae797a668792c6edf4a78dc997401') in 0.000529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.501120 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink
+  artifactKey: Guid(823c6290807b36e448b43996d7991ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink using Guid(823c6290807b36e448b43996d7991ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1adfd29b8e4f30e467d1f413782c9c81') in 0.000530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.048778 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_01.png
+  artifactKey: Guid(e17d916f29316a343a2b97538066a155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_01.png using Guid(e17d916f29316a343a2b97538066a155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6d54584d22c5000850121d7faf92f5') in 0.015010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_25.png
+  artifactKey: Guid(c91edc937f2a4394b864884d4953208b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_25.png using Guid(c91edc937f2a4394b864884d4953208b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85311996a79d46307cbb8b1c4ab6283') in 0.012360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_38.png
+  artifactKey: Guid(c306e3522669e1947b238de828d409be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_38.png using Guid(c306e3522669e1947b238de828d409be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dda902f1f2a6e008fc6e9fbc1e28615') in 0.010509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_43.png
+  artifactKey: Guid(b21bb248d84867f43ae64f904278fa60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_43.png using Guid(b21bb248d84867f43ae64f904278fa60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f588aa353e4a32b3971371894a8452e') in 0.013395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_69.png
+  artifactKey: Guid(02f0faaaac5b8d24a9401b2b8cb357e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_69.png using Guid(02f0faaaac5b8d24a9401b2b8cb357e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da60cff8eef6b5d3e4dc1870c3df0f6') in 0.013315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_60.png
+  artifactKey: Guid(8f8e72ec1fcd77240955a4c55909de5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_60.png using Guid(8f8e72ec1fcd77240955a4c55909de5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b64b182a736796f8b6dfc7c29a8dcf') in 0.013935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_10.png
+  artifactKey: Guid(513c74d3ede2d1548a1d5542ae8b36b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_10.png using Guid(513c74d3ede2d1548a1d5542ae8b36b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7e97fb6c6ada42f7d35196e78a890e') in 0.012512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_53.png
+  artifactKey: Guid(c69cf2244f71f23418782cd028fffe99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_53.png using Guid(c69cf2244f71f23418782cd028fffe99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbd743416bebd50862dc41ad9e61fef5') in 0.011529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_21.png
+  artifactKey: Guid(a2e80ae06570bc2458b6f58632f44749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_21.png using Guid(a2e80ae06570bc2458b6f58632f44749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7438908fcbb6565fb29b11f0c7a3c8e3') in 0.013384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_16.png
+  artifactKey: Guid(9c927fe57ba66064f921d926b44f5cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_16.png using Guid(9c927fe57ba66064f921d926b44f5cb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1a74fbf29814e592d4df561e05e09c') in 0.009770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_07.png
+  artifactKey: Guid(9f372f45b7573754f901f14aa9cc78ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_07.png using Guid(9f372f45b7573754f901f14aa9cc78ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b40cec2aa9c7b40526f54672d4977a') in 0.010485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_49.png
+  artifactKey: Guid(c0e71363d2f7c2e4ba205ecee09a8480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_49.png using Guid(c0e71363d2f7c2e4ba205ecee09a8480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf17e547cc868166872b962b0def95de') in 0.012040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_06.png
+  artifactKey: Guid(e3406ea1f1b89d647b8029f0bbe1abd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_06.png using Guid(e3406ea1f1b89d647b8029f0bbe1abd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76511f05d7f33f8ae70fa5f15ed85623') in 0.010249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_22.png
+  artifactKey: Guid(1fa15ebd605250e47a3ee6fe391cff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_22.png using Guid(1fa15ebd605250e47a3ee6fe391cff65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7f1a54204dcb35886353622ca180b2') in 0.011704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_50.png
+  artifactKey: Guid(f2d386d1d4fc1d94ebe2d252bf054f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_50.png using Guid(f2d386d1d4fc1d94ebe2d252bf054f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c98a5c24c72addf44cca1ec3a96d6e') in 0.009023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_36.png
+  artifactKey: Guid(e03f0040d0711d640ab1bddcec696260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_36.png using Guid(e03f0040d0711d640ab1bddcec696260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a259d9048575191d78cf0af6b9e6e5') in 0.009972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_56.png
+  artifactKey: Guid(1e70f22f9e0674043921b70a3b829595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_56.png using Guid(1e70f22f9e0674043921b70a3b829595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4738ae26010df55d7113476cc1167dcf') in 0.013599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_35.png
+  artifactKey: Guid(920b9aa50b42609459b079fdb897ea19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_35.png using Guid(920b9aa50b42609459b079fdb897ea19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '578a80d21cf9249cb6b32a7f6620f64b') in 0.010921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_59.png
+  artifactKey: Guid(0649a2ca065708145b0ab6b6181bc58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_59.png using Guid(0649a2ca065708145b0ab6b6181bc58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c29e6643e1af30a1f6518efef6b098') in 0.012136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_46.png
+  artifactKey: Guid(af5aff9426a79e84096a3cc2372ff189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_46.png using Guid(af5aff9426a79e84096a3cc2372ff189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eff7f9f72fb0fe47f225cc1b12f82f4') in 0.013638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_11.png
+  artifactKey: Guid(995aef0af60b9d741a22a33d3c12d731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_11.png using Guid(995aef0af60b9d741a22a33d3c12d731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa74f8347065f8864e692f4a6a077138') in 0.011223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_72.png
+  artifactKey: Guid(9d76ff88b6823ab47b284353190ec46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_72.png using Guid(9d76ff88b6823ab47b284353190ec46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559bc97eff0d72fe79e85d558df52411') in 0.017319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_34.png
+  artifactKey: Guid(ac338362ac957aa4ebbb70b0ecda2e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_34.png using Guid(ac338362ac957aa4ebbb70b0ecda2e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624feca2b2718da998aa4658f6d4416c') in 0.010355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_08.png
+  artifactKey: Guid(544362ede4d4edf4ead4b21e969019f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_08.png using Guid(544362ede4d4edf4ead4b21e969019f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04af4b7cb3f0a8dad6f1590cfa72f0d') in 0.010899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_66.png
+  artifactKey: Guid(03075c3b97c34b14a8900f9b0463d2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_66.png using Guid(03075c3b97c34b14a8900f9b0463d2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae294e8f2f27551e8c0e469a5a2da31a') in 0.011281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_55.png
+  artifactKey: Guid(b04006a4524bd21439a081984dce7aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_55.png using Guid(b04006a4524bd21439a081984dce7aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ecc868d9d6571e8a7eeb2ed54625a3') in 0.012676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_62.png
+  artifactKey: Guid(1852a48e210fd1345b3c62095937630f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_62.png using Guid(1852a48e210fd1345b3c62095937630f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6024e38c1cff3ad31771bc5c8a68e45c') in 0.010868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_19.png
+  artifactKey: Guid(aa8842f0373c3b14682f22e9d16f1cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles pink/tilePink_19.png using Guid(aa8842f0373c3b14682f22e9d16f1cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a25fe7d956771ca19e9ec46abb0741e') in 0.010346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 8.599809 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_02.png
+  artifactKey: Guid(798838fe782d7d543b602c14cf144e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_02.png using Guid(798838fe782d7d543b602c14cf144e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806c150cf8731acde380a70a310c29fa') in 0.013982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_21.png
+  artifactKey: Guid(c50ad3f3f02db6b499916e76702c7039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_21.png using Guid(c50ad3f3f02db6b499916e76702c7039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a674ee43ec95387e4359902ccc1dc9a') in 0.010041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_47.png
+  artifactKey: Guid(ec175081eaaa3f34da8e5402e0b1fc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_47.png using Guid(ec175081eaaa3f34da8e5402e0b1fc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78fe3503b4e28bfbcbf754fba7620cd1') in 0.011436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_63.png
+  artifactKey: Guid(50ab10cf43081864ead692a53562a38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_63.png using Guid(50ab10cf43081864ead692a53562a38c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ff3faa4aac848623462f3ac0a10c0c') in 0.012033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_57.png
+  artifactKey: Guid(44e4657f283947c448a984bb1d998d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_57.png using Guid(44e4657f283947c448a984bb1d998d7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aec37b234176ccaf350d6911ca68026') in 0.014878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_66.png
+  artifactKey: Guid(a557e4d1a15448f4a9dea34a25d11359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_66.png using Guid(a557e4d1a15448f4a9dea34a25d11359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55baf1acc4ec6fb5bb0be660acdfd5e5') in 0.014275 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_05.png
+  artifactKey: Guid(875565cb5f2fe8542951871354daf18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_05.png using Guid(875565cb5f2fe8542951871354daf18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190b5bfaabca2c827ebfdff44736b3e6') in 0.010370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_46.png
+  artifactKey: Guid(da81533516d736f4fa6a75f121b1ea8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_46.png using Guid(da81533516d736f4fa6a75f121b1ea8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74068215ec0ecaa960853b9ff18e39d7') in 0.013614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_42.png
+  artifactKey: Guid(627c81d3979bc9a4298fb45f4b6c4139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_42.png using Guid(627c81d3979bc9a4298fb45f4b6c4139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33313ab8c1b56f78ce7d125ae8c96525') in 0.016492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_07.png
+  artifactKey: Guid(ff95ef8151d607d4dacab88232739956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_07.png using Guid(ff95ef8151d607d4dacab88232739956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf79919211583275845c1240d2a6e0f') in 0.023680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_23.png
+  artifactKey: Guid(2a10921e534426d47b5b30acd82d1697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_23.png using Guid(2a10921e534426d47b5b30acd82d1697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96782082f3c9791bcdc9bc9143cc7fc') in 0.010875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_36.png
+  artifactKey: Guid(4d5e91304ba2b6442b24315cc7463c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_36.png using Guid(4d5e91304ba2b6442b24315cc7463c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51331633bd1be1f76d0f15bd26fc8af0') in 0.013209 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_12.png
+  artifactKey: Guid(3facd3afebb07ec4ea76bd077fd91c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_12.png using Guid(3facd3afebb07ec4ea76bd077fd91c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd644802777cffeeba0748adafd0b86b3') in 0.013282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_29.png
+  artifactKey: Guid(3e12ed3b1073a754c9320005cf030642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_29.png using Guid(3e12ed3b1073a754c9320005cf030642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ac3e50ecf2db0e2afdbd70c3d636d7') in 0.015287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_55.png
+  artifactKey: Guid(ad5aca8e6d73b4b4384da217d64a5e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_55.png using Guid(ad5aca8e6d73b4b4384da217d64a5e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f93a478ecafccd0051f0fc5aba7d782') in 0.012117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_65.png
+  artifactKey: Guid(09f6e33e01c039e46902a56fab887510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_65.png using Guid(09f6e33e01c039e46902a56fab887510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48cd273de92f588e86ac61c34d4ddfe') in 0.011760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_18.png
+  artifactKey: Guid(8f34fba1642519e4aaf66e3d13a548a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_18.png using Guid(8f34fba1642519e4aaf66e3d13a548a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8552bab7b2c3098bf3e2371ddb2452a7') in 0.011352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_62.png
+  artifactKey: Guid(270f13dcc63008a4cbf12eb9646565d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_62.png using Guid(270f13dcc63008a4cbf12eb9646565d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c667bf27fec3534c0129038530f79979') in 0.010650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_09.png
+  artifactKey: Guid(231abb7a92b910447ba0adea90814674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_09.png using Guid(231abb7a92b910447ba0adea90814674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37554d365827c97c79c39d364d7a2a89') in 0.013723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_52.png
+  artifactKey: Guid(271c939a18e50954a87e013f7f90ee5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles blue/tileBlue_52.png using Guid(271c939a18e50954a87e013f7f90ee5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8535531ef00dd7b20a865fbfdd83e73e') in 0.014371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.925517 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_02.png
+  artifactKey: Guid(0e854997625b7674c9abfad04c75402a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_02.png using Guid(0e854997625b7674c9abfad04c75402a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1aec1bc33c9c463b87e738c59fb09a') in 0.528193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_22.png
+  artifactKey: Guid(39ad8cc112c54d74d9112428758f1166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_22.png using Guid(39ad8cc112c54d74d9112428758f1166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c203a187fa4f9d43dc565aaeabe0d70') in 0.043076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_68.png
+  artifactKey: Guid(56cf0a4423ce4694d9e531bfab4f4ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_68.png using Guid(56cf0a4423ce4694d9e531bfab4f4ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b00390b9469b051985a80e665545f16') in 0.012619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_71.png
+  artifactKey: Guid(9b2d67ff392d8434290157fc0c4cb3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_71.png using Guid(9b2d67ff392d8434290157fc0c4cb3c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80aa2c36bf272ff46f115ade047961f2') in 0.013369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_70.png
+  artifactKey: Guid(a6e8844e9bcbb6448af0d603baac1f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_70.png using Guid(a6e8844e9bcbb6448af0d603baac1f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5655954313552705794f190fa27588f') in 0.012337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_52.png
+  artifactKey: Guid(d9d844ad130d25d44865de78f51ef9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_52.png using Guid(d9d844ad130d25d44865de78f51ef9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b9d6f1160ecb419f313f64bfc90e2f') in 0.009130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_25.png
+  artifactKey: Guid(e3de82bb691e0094baf1d26a60c13c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_25.png using Guid(e3de82bb691e0094baf1d26a60c13c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927a4dda128aa3654644feccd1631d0d') in 0.015450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_36.png
+  artifactKey: Guid(b68cd163dcf02944ca125bc8fc6d3912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_36.png using Guid(b68cd163dcf02944ca125bc8fc6d3912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14be4c8865e04f375e145f5657fe08a5') in 0.010159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_58.png
+  artifactKey: Guid(80b4bd3fc118fb241a3918a33bde3262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_58.png using Guid(80b4bd3fc118fb241a3918a33bde3262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79e9ff281de3c563de65a5b564bb49b2') in 0.013654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_47.png
+  artifactKey: Guid(5cde41040616b7c4d853cd23b56bb3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_47.png using Guid(5cde41040616b7c4d853cd23b56bb3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3f48e22ac299c355f42f07cfd5ccea') in 0.013519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_50.png
+  artifactKey: Guid(424f85c14636a7440bfbf7609d389403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_50.png using Guid(424f85c14636a7440bfbf7609d389403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d05e448663d75037a292f302bf3db7') in 0.008702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_45.png
+  artifactKey: Guid(8d8510afc6d6fd546b0b26a4207dc7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_45.png using Guid(8d8510afc6d6fd546b0b26a4207dc7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf97a5e86fab07ffc55bb415568f703a') in 0.011869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_29.png
+  artifactKey: Guid(c810044746db44c43a5a1cfd2c7b6d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_29.png using Guid(c810044746db44c43a5a1cfd2c7b6d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7e9efab74e55a2a28eab8289413fbb') in 0.010038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_07.png
+  artifactKey: Guid(4026693a936d0e5499d7b45a0874b67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_07.png using Guid(4026693a936d0e5499d7b45a0874b67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8dd15b57c69d1526141dc846f87183') in 0.012087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_43.png
+  artifactKey: Guid(66720cd3fde7c364a844693db5dba403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_43.png using Guid(66720cd3fde7c364a844693db5dba403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65413ba8d32355fce78cd79195ce20ee') in 0.011030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_67.png
+  artifactKey: Guid(d3f3be7da6138614a8207b01a59d15be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_67.png using Guid(d3f3be7da6138614a8207b01a59d15be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62dd16fcf3881390397be776ab6c8baa') in 0.009772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_65.png
+  artifactKey: Guid(3e1c826c1de9e88458528da74cce3786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_65.png using Guid(3e1c826c1de9e88458528da74cce3786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fc37faf790c8e075da0be8e2452ee4') in 0.014189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
