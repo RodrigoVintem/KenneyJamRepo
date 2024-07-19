@@ -618,7 +618,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerAnimations: {fileID: 953365230}
   moveSpeed: 5
-  jumpForce: 5
+  jumpForce: 7
   groundCheck: {fileID: 116205986}
   groundLayer:
     serializedVersion: 2
