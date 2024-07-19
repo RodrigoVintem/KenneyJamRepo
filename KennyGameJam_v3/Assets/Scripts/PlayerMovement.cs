@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+<<<<<<< HEAD
     public Animator playerAnimations;
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
@@ -50,5 +51,29 @@ public class PlayerMovement : MonoBehaviour
         {
             playerAnimations.SetBool("IsRuning", false);
         }
+=======
+
+    float horizontalInput;
+
+    public float speed = 10.0f;
+
+    Rigidbody2D rb;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        horizontalInput = Input.GetAxis("Horizontal");
+    }
+
+    private void FixedUpdate()
+    {
+        rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
+>>>>>>> main
     }
 }
