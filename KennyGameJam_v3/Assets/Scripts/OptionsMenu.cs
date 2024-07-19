@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
+using TMPro;
 
 public class OptionsMenu : MonoBehaviour
 {
+
+    public TMP_Dropdown graphicsDropdown;
 
     public AudioMixer audioMixer;
 
@@ -17,6 +20,8 @@ public class OptionsMenu : MonoBehaviour
 
     void Start ()
     {
+        graphicsDropdown.value = PlayerPrefs.GetInt("QualityLevel", 2);
+
         resolutions = Screen.resolutions;
 
         resolutionDropdown.ClearOptions();
@@ -55,7 +60,10 @@ public class OptionsMenu : MonoBehaviour
     
     public void SetQuality(int qualityIndex)
     {
+        Debug.Log("Change quality to: " + qualityIndex.ToString());
+
         QualitySettings.SetQualityLevel(qualityIndex);
+        PlayerPrefs.SetInt("QualityLevel", qualityIndex);
     }
 
     public void SetFullscreen(bool isFullscreen)
