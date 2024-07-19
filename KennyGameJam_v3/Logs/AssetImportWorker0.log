@@ -1,16 +1,19 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.25f1 (530ae0ba3889) revision 5442272'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'pt' Physical Memory: 32038 MB
+OS: 'Windows 11 (10.0.22631) 64bit Core' Language: 'pt' Physical Memory: 32038 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\2022.3.25f1\Editor\Unity.exe
+
+
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
+
 C:/Users/rodri/OneDrive - Feels Like Home/Pessoal/Unity/GitHub_Repositorys/KenneyJamRepo/KennyGameJam_v3
 -logFile
 Logs/AssetImportWorker0.log
@@ -18,6 +21,7 @@ Logs/AssetImportWorker0.log
 55854
 Successfully changed project path to: C:/Users/rodri/OneDrive - Feels Like Home/Pessoal/Unity/GitHub_Repositorys/KenneyJamRepo/KennyGameJam_v3
 C:/Users/rodri/OneDrive - Feels Like Home/Pessoal/Unity/GitHub_Repositorys/KenneyJamRepo/KennyGameJam_v3
+
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,6 +53,8 @@ C:/Users/rodri/OneDrive - Feels Like Home/Pessoal/Unity/GitHub_Repositorys/Kenne
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+    
+
 Player connection [30884] Host "[IP] 192.168.1.86 [Port] 0 [Flags] 2 [Guid] 4267004419 [EditorId] 4267004419 [Version] 1048832 [Id] WindowsEditor(7,Rodrigo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [30884] Host "[IP] 192.168.1.86 [Port] 0 [Flags] 2 [Guid] 4267004419 [EditorId] 4267004419 [Version] 1048832 [Id] WindowsEditor(7,Rodrigo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
@@ -84,11 +90,13 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.598 seconds
 Domain Reload Profiling: 970ms
 	BeginReloadAssembly (137ms)
+
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+    
 	RebuildCommonClasses (26ms)
 	RebuildNativeTypeToScriptingClass (7ms)
 	initialDomainReloadingComplete (56ms)
@@ -111,6 +119,7 @@ Domain Reload Profiling: 970ms
 			BeforeProcessingInitializeOnLoad (2ms)
 			ProcessInitializeOnLoadAttributes (99ms)
 			ProcessInitializeOnLoadMethodAttributes (37ms)
+
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,15 +127,21 @@ Domain Reload Profiling: 970ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
+
+
 - Loaded All Assemblies, in  0.677 seconds
 Refreshing native plugins compatible for Editor in 6.40 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
+
+
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+
+
 - Finished resetting the current domain, in  0.641 seconds
 Domain Reload Profiling: 1314ms
 	BeginReloadAssembly (122ms)
@@ -172,6 +187,8 @@ Total: 4.075300 ms (FindLiveObjects: 0.283300 ms CreateObjectMapping: 0.066600 m
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+
+
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
@@ -185,6 +202,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+
+
   Time since last request: 87591.851544 seconds.
   path: Assets/Animations
   artifactKey: Guid(8a171551617341e489f1021bf7ed8760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -312,7 +331,15 @@ Start importing Assets/kenney_shape-characters/PNG/Double/tile_background_tree_l
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: A operação de E/S foi cancelada devido a uma saída do módulo ou a um pedido da aplicação.
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: A operaï¿½ï¿½o de E/S foi cancelada devido a uma saï¿½da do mï¿½dulo ou a um pedido da aplicaï¿½ï¿½o.
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
+=======
+  Time since last request: 604.777950 seconds.
+  path: Assets/Menu_assets/Words_color.asset
+  artifactKey: Guid(46e562db77160aa4192c941c313cd6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/Words_color.asset using Guid(46e562db77160aa4192c941c313cd6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb67c6ecfb44818e068becef4c09202') in 0.012529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+
