@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField] AudioSource PlayerSounds;
     public Transform SpawnPoint;
     private static PlayerMovement instance;
     [SerializeField] GameObject Body;
@@ -54,6 +55,7 @@ public class PlayerMovement : MonoBehaviour
         // Handle jumping
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
+            PlayerSounds.Play(0);
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
 
