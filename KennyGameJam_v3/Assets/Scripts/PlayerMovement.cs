@@ -15,8 +15,8 @@ public class PlayerMovement : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundLayer;
 
-    private Rigidbody2D rb;
-    private bool isGrounded;
+    public Rigidbody2D rb;
+    public bool isGrounded;
     private Vector3 originalScale;
     private Queue<GameObject> spawnedBodies = new Queue<GameObject>();
     private Transform currentPlatform;
@@ -45,6 +45,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        
         // Check if the player is grounded
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
         playerAnimations.SetBool("IsJumping", !isGrounded);
@@ -77,8 +78,6 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.localScale = new Vector3(-Mathf.Abs(originalScale.x), originalScale.y, originalScale.z);
         }
-
-        // Handle animations
         playerAnimations.SetBool("IsRuning", moveInput != 0);
     }
 
