@@ -7,25 +7,14 @@ public class LevelMove : MonoBehaviour
 {
     public int nextLevelIndex;
 
-    public static LevelMove instance;
-
-    private void Awake() {
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
+    
 
     private void OnTriggerEnter2D(Collider2D other) {
         print("Triggered");
 
         if (other.tag == "Player")
         {
+            Destroy(other.gameObject);
             print("Switching level to " + nextLevelIndex);
             SceneManager.LoadScene(nextLevelIndex, LoadSceneMode.Single);
         }

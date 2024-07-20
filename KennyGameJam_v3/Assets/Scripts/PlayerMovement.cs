@@ -24,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Awake()
     {
+        transform.position = SpawnPoint.position;
         DontDestroyOnLoad(SpawnPoint.gameObject);
         if (instance == null)
         {
