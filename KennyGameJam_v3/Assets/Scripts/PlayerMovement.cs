@@ -24,6 +24,7 @@ public class PlayerMovement : MonoBehaviour
     {
         // bla bla
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
+        playerAnimations.SetBool("IsJumping", !isGrounded);
 
         // Handle movement
         float moveInput = Input.GetAxis("Horizontal");
