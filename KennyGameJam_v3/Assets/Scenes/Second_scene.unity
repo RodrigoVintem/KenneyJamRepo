@@ -313,7 +313,7 @@ GameObject:
   - component: {fileID: 289987585}
   - component: {fileID: 289987586}
   m_Layer: 0
-  m_Name: SpawnBody
+  m_Name: SpawnStart
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -327,12 +327,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 289987584}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.027, y: -0.356, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -15.417001, y: -2.4659998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1338712380}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &289987586
 MonoBehaviour:
@@ -48974,7 +48974,6 @@ Transform:
   m_Children:
   - {fileID: 47641074}
   - {fileID: 2136764391}
-  - {fileID: 289987585}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2098604913
@@ -49246,6 +49245,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 713706476}
   - {fileID: 605200606}
+  - {fileID: 289987585}
   - {fileID: 1338712380}
   - {fileID: 157625040}
   - {fileID: 2098604917}

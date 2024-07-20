@@ -41,10 +41,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
-        {
-            SpawnBody();
-        }
         
         // bla bla
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
