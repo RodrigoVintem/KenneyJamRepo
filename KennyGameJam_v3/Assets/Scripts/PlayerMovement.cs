@@ -101,7 +101,25 @@ public class PlayerMovement : MonoBehaviour
 
     public void SpawnBody()
     {
-        // ... (rest of the SpawnBody method remains unchanged)
+         // Instantiate a new body at the player's position
+        GameObject spawnedBody = Instantiate(Body, transform.position, transform.rotation);
+        DontDestroyOnLoad(spawnedBody);
+
+        // Add the spawned body to the queue
+        spawnedBodies.Enqueue(spawnedBody);
+
+        Debug.Log("Bodies in queue: " + spawnedBodies.Count);
+
+        // If there are more than 5 bodies, remove the oldest one
+        if (spawnedBodies.Count > 5)
+        {
+            GameObject oldBody = spawnedBodies.Dequeue();
+            Destroy(oldBody);
+        }
+
+        // Reload the current scene
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        transform.position = SpawnPoint.position;
     }
 
     private void OnCollisionEnter2D(Collision2D other)
