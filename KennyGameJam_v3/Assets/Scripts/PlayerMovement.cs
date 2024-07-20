@@ -61,6 +61,7 @@ public class PlayerMovement : MonoBehaviour
     public void SpawnBody()
     {
         GameObject SpawnedBody = Instantiate(Body, transform.position, transform.rotation);
+        DontDestroyOnLoad(SpawnedBody);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
