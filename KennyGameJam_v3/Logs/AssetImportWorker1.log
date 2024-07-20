@@ -178,3 +178,160 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8430.025441 seconds.
+  path: Assets/kenney_fantasy-ui-borders/Sample.png
+  artifactKey: Guid(2b70e5659b3db2c4c91333346a054d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_fantasy-ui-borders/Sample.png using Guid(2b70e5659b3db2c4c91333346a054d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7195fc9a1d71b21f4ca223d031af6f52') in 0.088524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.803898 seconds.
+  path: Assets/kenney_fantasy-ui-borders/PNG/Double/Divider/divider-001.png
+  artifactKey: Guid(91247e28a386a4d49bcb3087b33d4899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_fantasy-ui-borders/PNG/Double/Divider/divider-001.png using Guid(91247e28a386a4d49bcb3087b33d4899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73895315df17ea4ae68e36ce805d4fc') in 0.011723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/kenney_fantasy-ui-borders/PNG/Double/Divider/divider-005.png
+  artifactKey: Guid(5ed29c1589adbc44b85fa40c62cf53b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_fantasy-ui-borders/PNG/Double/Divider/divider-005.png using Guid(5ed29c1589adbc44b85fa40c62cf53b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bb19c256ba2f6c95f9a720b1d71c59') in 0.011740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/kenney_fantasy-ui-borders/PNG/Double/Divider/divider-003.png
+  artifactKey: Guid(318aca38169b55f4fa22db9e7de47b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_fantasy-ui-borders/PNG/Double/Divider/divider-003.png using Guid(318aca38169b55f4fa22db9e7de47b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a942450385eaf8cc19849951a295eb2') in 0.010362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.066686 seconds.
+  path: Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-002.png
+  artifactKey: Guid(b045c772697bed041ba82b6acbd76f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-002.png using Guid(b045c772697bed041ba82b6acbd76f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf9858fdf3062a4b0bfe70d02dbdae6') in 0.012301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-008.png
+  artifactKey: Guid(fa785d6bbbf95d24d8992e32a08f45a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-008.png using Guid(fa785d6bbbf95d24d8992e32a08f45a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a745c3272e49b67cfe22315efdc773a') in 0.008813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-022.png
+  artifactKey: Guid(0ac5396c521984840bc38078853f0912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-022.png using Guid(0ac5396c521984840bc38078853f0912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea69297722f1ab6aa15d6ce13c7374ad') in 0.007706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-011.png
+  artifactKey: Guid(0e3a8684a02f1774e91e9b2e3c8c0807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-011.png using Guid(0e3a8684a02f1774e91e9b2e3c8c0807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '972486eb25a6a80cd295880d0c1287fb') in 0.009854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-009.png
+  artifactKey: Guid(bfefafc106affa74499af3ffa3d1640e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-009.png using Guid(bfefafc106affa74499af3ffa3d1640e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e88a72adf758da98264224b264de7b') in 0.008509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-021.png
+  artifactKey: Guid(0b83c69037ffc00429800ba917127883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-021.png using Guid(0b83c69037ffc00429800ba917127883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea48de7e6d5b14d6620ab6eb8ec2d822') in 0.008833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-031.png
+  artifactKey: Guid(c7e395ec3e7d06e4fa66eaba1dac09c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-031.png using Guid(c7e395ec3e7d06e4fa66eaba1dac09c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '130714f41210c57ff80b2baaca9d7822') in 0.008500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-030.png
+  artifactKey: Guid(65a7c8c5fb4bd204cab09375c0677813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-030.png using Guid(65a7c8c5fb4bd204cab09375c0677813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf9c513d3246b9e3d11062fad241cecc') in 0.009346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-003.png
+  artifactKey: Guid(51d9db44492ddfc48aa89c050bc2ba69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-003.png using Guid(51d9db44492ddfc48aa89c050bc2ba69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f8b35fe758663145aea1e078064e1fc') in 0.008010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-010.png
+  artifactKey: Guid(0b358a58d0f58454080d5cd55b1a018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-010.png using Guid(0b358a58d0f58454080d5cd55b1a018e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e090043d2c2ae7df4306df9e31ba504c') in 0.009136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-006.png
+  artifactKey: Guid(2a127ad5bd6c9b14fb58dbfa001a7940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-006.png using Guid(2a127ad5bd6c9b14fb58dbfa001a7940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406572d95c2e2709899da57a5fcc9150') in 0.007864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-017.png
+  artifactKey: Guid(fe8fda20611b2c2469c7141bb0f87d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-017.png using Guid(fe8fda20611b2c2469c7141bb0f87d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af21d9be1c031f52a08248b7b5d79f6a') in 0.007754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-025.png
+  artifactKey: Guid(3d9195c696605df4f9a0c3d15e12f84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-025.png using Guid(3d9195c696605df4f9a0c3d15e12f84c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e230dc05936ef20f737ab4599b58b42') in 0.008610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-024.png
+  artifactKey: Guid(d28cbc4b1ffabdc4c8d01d01a55343a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-024.png using Guid(d28cbc4b1ffabdc4c8d01d01a55343a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d7473604a322c33aac7b9af3e362a0') in 0.008410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-004.png
+  artifactKey: Guid(9f04d7c6d15d2f74e96dcef144522ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-004.png using Guid(9f04d7c6d15d2f74e96dcef144522ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a67541585a18732e31b05c5f65663a6') in 0.008564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
