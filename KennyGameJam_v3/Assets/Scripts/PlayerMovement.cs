@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] GameObject Body;
+    
     public Animator playerAnimations;
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
@@ -15,20 +15,18 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private bool isGrounded;
     private Vector3 originalScale;
-    private Queue<GameObject> spawnedBodies = new Queue<GameObject>();
+    
 
     void Start()
     {
+        
         rb = GetComponent<Rigidbody2D>();
         originalScale = transform.localScale; 
     }
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
-        {
-            SpawnBody();
-        }
+        
         
         // bla bla
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
@@ -58,25 +56,5 @@ public class PlayerMovement : MonoBehaviour
         playerAnimations.SetBool("IsRuning", rb.velocity.x != 0);
     }
 
-    public void SpawnBody()
-    {
-        // Instantiate a new body at the player's position
-        GameObject spawnedBody = Instantiate(Body, transform.position, transform.rotation);
-        DontDestroyOnLoad(spawnedBody);
-
-        // Add the spawned body to the queue
-        spawnedBodies.Enqueue(spawnedBody);
-
-        Debug.Log(spawnedBodies);
-
-        // If there are more than 5 bodies, remove the oldest one
-        if (spawnedBodies.Count > 5)
-        {
-            GameObject oldBody = spawnedBodies.Dequeue();
-            Destroy(oldBody);
-        }
-
-        // Reload the current scene
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
+    
 }

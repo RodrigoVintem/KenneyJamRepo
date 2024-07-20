@@ -154,6 +154,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1338712380}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &289987584
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 289987585}
+  - component: {fileID: 289987586}
+  m_Layer: 0
+  m_Name: SpawnBody
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &289987585
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289987584}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.027, y: -0.356, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1338712380}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &289987586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289987584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89fe72d951956354daed4b5f042a6621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Body: {fileID: 5775521898686937739, guid: a1ca0a1f1688b9a4ba230becebe5f776, type: 3}
 --- !u!1 &328642216
 GameObject:
   m_ObjectHideFlags: 0
@@ -37618,7 +37663,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10bdd14e2d8a1ad4f8f1aabdbfc3e539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Body: {fileID: 0}
   playerAnimations: {fileID: 1338712375}
   moveSpeed: 8
   jumpForce: 7
@@ -37765,6 +37809,7 @@ Transform:
   m_Children:
   - {fileID: 47641074}
   - {fileID: 2136764391}
+  - {fileID: 289987585}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2136764390
