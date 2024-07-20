@@ -4,38 +4,40 @@ using UnityEngine;
 
 public class BoxSwitch : MonoBehaviour
 {
-    //If the Player hits this object, then a platform will start moving
+    public List<Transform> points;
+    public Transform platform;
+    int goalPoint = 0;
+    public float moveSpeed = 2;
+    public bool isActivated = false;
 
-    public GameObject platform;
-    public float speed = 1.0f;
-    public bool isMoving = false;
-    public Vector3 targetPosition;
-    public Vector3 startPosition;
-
-    void Start()
+    void OnTriggerEnter2D(Collider2D other)
     {
-        startPosition = platform.transform.position;
-        targetPosition = new Vector3(startPosition.x +5, startPosition.y, startPosition.z);
-    }
-
-    void Update()
-    {
-        if (isMoving)
+        if(other.CompareTag("Player"))
         {
-            platform.transform.position = Vector3.MoveTowards(platform.transform.position, targetPosition, speed * Time.deltaTime);
-        }
-        else
-        {
-            platform.transform.position = Vector3.MoveTowards(platform.transform.position, startPosition, speed * Time.deltaTime);
+          isActivated = true;
         }
     }
 
-    void OnTriggerEnter(Collider other)
+    private void Update()
     {
-        if (other.gameObject.tag == "Player")
-        {
-            isMoving = true;
-        }
+        if(isActivated){
+            MoveToNextPoint();
+        }   
     }
+
+    void MoveToNextPoint()
+    {
+       platform.position = Vector2.MoveTowards(platform.position, points[goalPoint].position, moveSpeed * Time.deltaTime);
+
+       if(Vector2.Distance(platform.position, points[goalPoint].position) < 0.1f)
+       {
+           if(goalPoint == points.Count - 1){
+               goalPoint = 0;
+           }else{
+               goalPoint++;
+           }
+       }
+    }
+
 
 }
