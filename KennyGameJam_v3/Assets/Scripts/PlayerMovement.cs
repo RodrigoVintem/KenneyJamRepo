@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField] GameObject Body;
     public Animator playerAnimations;
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
@@ -22,6 +24,10 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if(Input.GetButtonDown("Fire1"))
+        {
+            SpawnBody();
+        }
         // bla bla
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
         playerAnimations.SetBool("IsJumping", !isGrounded);
@@ -51,5 +57,10 @@ public class PlayerMovement : MonoBehaviour
         {
             playerAnimations.SetBool("IsRuning", false);
         }
+    }
+    public void SpawnBody()
+    {
+        GameObject SpawnedBody = Instantiate(Body, transform.position, transform.rotation);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
