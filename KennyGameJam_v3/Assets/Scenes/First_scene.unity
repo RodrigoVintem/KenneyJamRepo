@@ -1423,7 +1423,7 @@ MonoBehaviour:
   Body: {fileID: 5775521898686937739, guid: a1ca0a1f1688b9a4ba230becebe5f776, type: 3}
   playerAnimations: {fileID: 1328350043}
   moveSpeed: 8
-  jumpForce: 7
+  jumpForce: 13
   groundCheck: {fileID: 1330826497}
   groundLayer:
     serializedVersion: 2
