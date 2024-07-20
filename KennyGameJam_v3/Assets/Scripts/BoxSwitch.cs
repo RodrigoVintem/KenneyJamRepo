@@ -15,7 +15,7 @@ public class BoxSwitch : MonoBehaviour
     void Start()
     {
         startPosition = platform.transform.position;
-        targetPosition = new Vector3(startPosition.x, startPosition.y + 5, startPosition.z);
+        targetPosition = new Vector3(startPosition.x +5, startPosition.y, startPosition.z);
     }
 
     void Update()
