@@ -73,6 +73,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void SpawnBody()
     {
+        Body = GameObject.Find("DiethBody");
         // Instantiate a new body at the player's position
         GameObject spawnedBody = Instantiate(Body, transform.position, transform.rotation);
         DontDestroyOnLoad(spawnedBody);
