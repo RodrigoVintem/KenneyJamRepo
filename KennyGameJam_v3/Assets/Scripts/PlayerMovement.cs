@@ -21,6 +21,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Awake()
     {
+        Body = GameObject.Find("DiethBody");
         DontDestroyOnLoad(SpawnPoint.gameObject);
         if (instance == null)
         {
