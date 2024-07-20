@@ -973,3 +973,8 @@ Received Import Request.
 Start importing Assets/MainGameAssets/Tile_Palette_Art/tile_0022 1.asset using Guid(979322065dbdab84486818d46e0e94ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d6388decc6c366299a1ffbadbf4d90') in 0.005861 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: A operação de E/S foi cancelada devido a uma saída do módulo ou a um pedido da aplicação.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
