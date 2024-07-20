@@ -392,3 +392,11 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 447.631587 seconds.
+  path: Assets/Background.prefab
+  artifactKey: Guid(0c902e433fcce0f49aa2979720e0ef71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Background.prefab using Guid(0c902e433fcce0f49aa2979720e0ef71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b636f97061a4526c5d7a05ce9167fb6f') in 0.659083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2410
