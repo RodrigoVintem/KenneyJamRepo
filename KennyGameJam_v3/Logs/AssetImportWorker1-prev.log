@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.25f1 (530ae0ba3889) revision 5442272'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.17763) 64bit EnterpriseS' Language: 'ru' Physical Memory: 16234 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'pt' Physical Memory: 32038 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\2022.3.25f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.25f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-D:/GitHub/KenneyJamRepo/KennyGameJam_v3
+C:/Users/rodri/OneDrive - Feels Like Home/Pessoal/Unity/GitHub_Repositorys/KenneyJamRepo/KennyGameJam_v3
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50579
-Successfully changed project path to: D:/GitHub/KenneyJamRepo/KennyGameJam_v3
-D:/GitHub/KenneyJamRepo/KennyGameJam_v3
+60137
+Successfully changed project path to: C:/Users/rodri/OneDrive - Feels Like Home/Pessoal/Unity/GitHub_Repositorys/KenneyJamRepo/KennyGameJam_v3
+C:/Users/rodri/OneDrive - Feels Like Home/Pessoal/Unity/GitHub_Repositorys/KenneyJamRepo/KennyGameJam_v3
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,65 +49,68 @@ D:/GitHub/KenneyJamRepo/KennyGameJam_v3
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15976] Host "[IP] 192.168.31.25 [Port] 0 [Flags] 2 [Guid] 551104725 [EditorId] 551104725 [Version] 1048832 [Id] WindowsEditor(7,Computer) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [31828] Host "[IP] 192.168.1.210 [Port] 0 [Flags] 2 [Guid] 202080788 [EditorId] 202080788 [Version] 1048832 [Id] WindowsEditor(7,Rodrigo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15976] Host "[IP] 192.168.31.25 [Port] 0 [Flags] 2 [Guid] 551104725 [EditorId] 551104725 [Version] 1048832 [Id] WindowsEditor(7,Computer) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [31828] Host "[IP] 192.168.1.210 [Port] 0 [Flags] 2 [Guid] 202080788 [EditorId] 202080788 [Version] 1048832 [Id] WindowsEditor(7,Rodrigo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 6.00 ms, found 4 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 13.77 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.25f1 (530ae0ba3889)
-[Subsystems] Discovering subsystems at path D:/2022.3.25f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/GitHub/KenneyJamRepo/KennyGameJam_v3/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/rodri/OneDrive - Feels Like Home/Pessoal/Unity/GitHub_Repositorys/KenneyJamRepo/KennyGameJam_v3/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c91)
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28a1)
     Vendor:   NVIDIA
-    VRAM:     2996 MB
-    Driver:   31.0.15.4626
+    VRAM:     5921 MB
+    Driver:   32.0.15.5612
 Initialize mono
-Mono path[0] = 'D:/2022.3.25f1/Editor/Data/Managed'
-Mono path[1] = 'D:/2022.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/2022.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/2022.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003453 seconds.
-- Loaded All Assemblies, in  0.399 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007549 seconds.
+- Loaded All Assemblies, in  0.326 seconds
 Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1590 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.316 seconds
-Domain Reload Profiling: 715ms
-	BeginReloadAssembly (118ms)
+- Finished resetting the current domain, in  1.914 seconds
+Domain Reload Profiling: 2237ms
+	BeginReloadAssembly (95ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (45ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (162ms)
-		LoadAssemblies (117ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (136ms)
+		LoadAssemblies (93ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (160ms)
-			TypeCache.Refresh (158ms)
-				TypeCache.ScanAssembly (143ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (131ms)
+				TypeCache.ScanAssembly (118ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (317ms)
+	FinalizeReload (1914ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (244ms)
+		SetupLoadedEditorAssemblies (1859ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (1710ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (172ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
+			ProcessInitializeOnLoadAttributes (101ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,58 +118,60 @@ Domain Reload Profiling: 715ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.674 seconds
-Refreshing native plugins compatible for Editor in 3.18 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.577 seconds
+Refreshing native plugins compatible for Editor in 4.24 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for Android target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.895 seconds
-Domain Reload Profiling: 1568ms
-	BeginReloadAssembly (176ms)
+- Finished resetting the current domain, in  0.742 seconds
+Domain Reload Profiling: 1312ms
+	BeginReloadAssembly (133ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (403ms)
-		LoadAssemblies (281ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (351ms)
+		LoadAssemblies (288ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (216ms)
-			TypeCache.Refresh (183ms)
-				TypeCache.ScanAssembly (163ms)
-			ScanForSourceGeneratedMonoScriptInfo (25ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (895ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (120ms)
+				TypeCache.ScanAssembly (109ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (742ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (705ms)
+		SetupLoadedEditorAssemblies (589ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (72ms)
-			ProcessInitializeOnLoadAttributes (574ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (448ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 3.07 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 4.99 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4055 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (61.4 KB). Loaded Objects now: 4519.
-Memory consumption went from 147.8 MB to 147.7 MB.
-Total: 4.561000 ms (FindLiveObjects: 0.365500 ms CreateObjectMapping: 0.334700 ms MarkObjects: 3.696800 ms  DeleteObjects: 0.163000 ms)
+Unloading 4056 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (244.6 KB). Loaded Objects now: 4516.
+Memory consumption went from 153.6 MB to 153.3 MB.
+Total: 3.605000 ms (FindLiveObjects: 0.327200 ms CreateObjectMapping: 0.084900 ms MarkObjects: 2.978200 ms  DeleteObjects: 0.213900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
@@ -180,66 +185,564 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 4230.429911 seconds.
-  path: Assets/DiethBody.prefab
-  artifactKey: Guid(a1ca0a1f1688b9a4ba230becebe5f776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DiethBody.prefab using Guid(a1ca0a1f1688b9a4ba230becebe5f776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94742b558aaf451c38c232f064847f36') in 0.276824 seconds
+  Time since last request: 173927.289316 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0184.png
+  artifactKey: Guid(bd6fe9c866795f549b7b820ea291e160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0184.png using Guid(bd6fe9c866795f549b7b820ea291e160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '806b9b4357c7973c0c34bd50526a9cd0') in 0.067345 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0194.png
+  artifactKey: Guid(d5d064f604ffb3c489bc424700204110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0194.png using Guid(d5d064f604ffb3c489bc424700204110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8dd02b2a2d01d27aa050074c2684f1') in 0.012410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0186.png
+  artifactKey: Guid(46ef4c784778fdc41b568e169d04f44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0186.png using Guid(46ef4c784778fdc41b568e169d04f44f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc35f83b1b736f8e5aa6ef7a6787324f') in 0.010760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0195.png
+  artifactKey: Guid(38731b6a6c00e1a409d0cd4970e6c916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0195.png using Guid(38731b6a6c00e1a409d0cd4970e6c916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0bde429c73a725649bfd4f21ec29ec9') in 0.011739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0188.png
+  artifactKey: Guid(2822cba9142ec07468ccb0af22719f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0188.png using Guid(2822cba9142ec07468ccb0af22719f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e166feca83fbbe6c90e09a753d9daeb5') in 0.009313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0191.png
+  artifactKey: Guid(8ad2d950f54336c4aa04d73fcfd9185f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0191.png using Guid(8ad2d950f54336c4aa04d73fcfd9185f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb72fc1af3f13c80f5e583f7e9a9e0f') in 0.008702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0196.png
+  artifactKey: Guid(7cdc3e12db236b34ebe87fa99cefa7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0196.png using Guid(7cdc3e12db236b34ebe87fa99cefa7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74104434437249b0e7635cbd00dbc610') in 0.008046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.344217 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0198.png
+  artifactKey: Guid(e9457534233956144877929a0151b99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0198.png using Guid(e9457534233956144877929a0151b99b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67acc46c531d8045f70b4b917f36870f') in 0.021328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0206.png
+  artifactKey: Guid(676a3fd224bec4746821fbedf2f179cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0206.png using Guid(676a3fd224bec4746821fbedf2f179cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d80e777b047b2fc89c8fe915e4a6d03') in 0.009724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0200.png
+  artifactKey: Guid(81947e59b9d905e45bea1f8394c9dd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0200.png using Guid(81947e59b9d905e45bea1f8394c9dd70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33a5ac9ee18ca5d89ff9fb35c92ba4fe') in 0.012458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0220.png
+  artifactKey: Guid(c458a028c67530843853c2878885539e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0220.png using Guid(c458a028c67530843853c2878885539e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9679a3f5a83d060274ffee402709117b') in 0.009370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0219.png
+  artifactKey: Guid(395b473128258604681077036bf55cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0219.png using Guid(395b473128258604681077036bf55cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbc7bb3979c3f83b6eef4509fd4e0bfa') in 0.009210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0211.png
+  artifactKey: Guid(d812b264a9a78954995bb17277dbb162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0211.png using Guid(d812b264a9a78954995bb17277dbb162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a576172377b386f4836251672279adbc') in 0.008554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0221.png
+  artifactKey: Guid(bccb0375bcb515d40bd9829baa0673f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0221.png using Guid(bccb0375bcb515d40bd9829baa0673f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d83034eda5c01232a905ecb7973284') in 0.006191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0210.png
+  artifactKey: Guid(b2754c5f30af2cd449215534323b96c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0210.png using Guid(b2754c5f30af2cd449215534323b96c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4173166ea6b478938b2e144ae6527ead') in 0.007437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0226.png
+  artifactKey: Guid(b4628c41cd14a8a49909b539bf10d8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0226.png using Guid(b4628c41cd14a8a49909b539bf10d8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc527c91f08de12b702424eb35b7a2e6') in 0.006806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0235.png
+  artifactKey: Guid(ef383c518fb79f44d8220a0dc2bef4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0235.png using Guid(ef383c518fb79f44d8220a0dc2bef4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774e5b316d1654d7c249a46df315fb7c') in 0.008466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0217.png
+  artifactKey: Guid(cec108a2cbaf3f74696fcf82527397dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0217.png using Guid(cec108a2cbaf3f74696fcf82527397dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f54b38c0d7c48d9b9052b0b98fcca0') in 0.006771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0201.png
+  artifactKey: Guid(89622a1738085bc49891b273e38da345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0201.png using Guid(89622a1738085bc49891b273e38da345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d743e7765e5281ef133b4b474f991e9') in 0.006416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0238.png
+  artifactKey: Guid(608db1d9f2853bf43b6d06aa04f2d48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0238.png using Guid(608db1d9f2853bf43b6d06aa04f2d48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10ce1b321885452d0568919349162ed') in 0.007369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0228.png
+  artifactKey: Guid(83ba915d660a25845952519c879c1b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0228.png using Guid(83ba915d660a25845952519c879c1b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a113e5b8be3e218b0abe6007fb69defb') in 0.006692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0232.png
+  artifactKey: Guid(b962f6e8c8f15974cb207ec121b43a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0232.png using Guid(b962f6e8c8f15974cb207ec121b43a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eef4b289a22d1fcbfeaaf7507712696') in 0.007297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0231.png
+  artifactKey: Guid(4750e2088d0c19445988cc36494f3934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0231.png using Guid(4750e2088d0c19445988cc36494f3934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad3fd499b7ea8b287f129f8edf70484') in 0.007339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0234.png
+  artifactKey: Guid(56326331943377040ae57b03f8570e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0234.png using Guid(56326331943377040ae57b03f8570e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3952bd7068cc3e591747fa8f866f86b0') in 0.006249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0229.png
+  artifactKey: Guid(9b5ee6ee124a53f4ab637e1ab0beeed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0229.png using Guid(9b5ee6ee124a53f4ab637e1ab0beeed4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e635e82869dd4bc793dcfdc08999b065') in 0.007341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0214.png
+  artifactKey: Guid(0dad027412a9f644695d39701bedbf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0214.png using Guid(0dad027412a9f644695d39701bedbf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08f0a76681e61b4f2bc41edbf084bb87') in 0.007060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0202.png
+  artifactKey: Guid(84eae9f4923ebc442be6f97b1b4fe66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0202.png using Guid(84eae9f4923ebc442be6f97b1b4fe66e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85a8c6b07b6a2cb1fbd746cc8b196a9') in 0.007279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0236.png
+  artifactKey: Guid(f2677632136cf364ca61d5a17ca5073d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0236.png using Guid(f2677632136cf364ca61d5a17ca5073d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16db779fa86e14b76aadefeebc25e02') in 0.006798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.184784 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0240.png
+  artifactKey: Guid(aa97e1164aa9e6d4a853a4eb1a9df78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0240.png using Guid(aa97e1164aa9e6d4a853a4eb1a9df78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df7b5a43dec7f34260ac94f38b77061') in 0.016340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0245.png
+  artifactKey: Guid(2fb8c695b1c07b948b8fb7754761e7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0245.png using Guid(2fb8c695b1c07b948b8fb7754761e7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd393afc5801172c499fc647540612bac') in 0.011117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0247.png
+  artifactKey: Guid(5b6184de682e9ed4e9355962f1af8445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0247.png using Guid(5b6184de682e9ed4e9355962f1af8445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b607b6094ac843732d47adaa7f3e0f67') in 0.007928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0249.png
+  artifactKey: Guid(bf628363bf5f5bc46859a6af1abc1edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0249.png using Guid(bf628363bf5f5bc46859a6af1abc1edb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd796142cbe4f030c2090f2abb0e6ecc') in 0.008131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0251.png
+  artifactKey: Guid(ca71bb1f608fe284e99cfb8efd98330e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0251.png using Guid(ca71bb1f608fe284e99cfb8efd98330e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beab243f08d69d5bb8cff09b88ad443b') in 0.008431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0243.png
+  artifactKey: Guid(e932591aa97abc2428b2c0aac96a374c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0243.png using Guid(e932591aa97abc2428b2c0aac96a374c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e4b0f0be5845610ce4bdc10ab23b4b') in 0.007215 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0252.png
+  artifactKey: Guid(05dea72e3ae6677479b53c7160de286f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0252.png using Guid(05dea72e3ae6677479b53c7160de286f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37cb2bcc707a292b5a83712da1236e15') in 0.007504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.014558 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0254.png
+  artifactKey: Guid(7e110de570a3973439d41a9f5e71cc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0254.png using Guid(7e110de570a3973439d41a9f5e71cc43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6b4970f1653515dc93497aca428c98') in 0.006476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0256.png
+  artifactKey: Guid(7ea54bb296a221a4d872588de2ff6f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0256.png using Guid(7ea54bb296a221a4d872588de2ff6f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2207d82693e20b59b1464a7308174d79') in 0.006894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0262.png
+  artifactKey: Guid(7d64b79cfafdbe842afed5b925731fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0262.png using Guid(7d64b79cfafdbe842afed5b925731fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c81d9d038cdb139b9f07bc5cea9f8d8') in 0.005385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0259.png
+  artifactKey: Guid(7ecd5e93c6bdef940b43c52ce029bfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0259.png using Guid(7ecd5e93c6bdef940b43c52ce029bfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc00f53a6a9a235d482682cd332db55c') in 0.005776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0264.png
+  artifactKey: Guid(0dac3d4325f44b94195c4bb581085bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0264.png using Guid(0dac3d4325f44b94195c4bb581085bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c316026dc765e15bb3607e73f55e179') in 0.007144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0263.png
+  artifactKey: Guid(fdc84b8bf7d70e840a4a52eea0dfd605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0263.png using Guid(fdc84b8bf7d70e840a4a52eea0dfd605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac6d3c6e28b0ab916de786afe5d8ff4') in 0.006871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0265.png
+  artifactKey: Guid(071ab64bde2e7b94b86ca1cec85c4d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0265.png using Guid(071ab64bde2e7b94b86ca1cec85c4d59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef476b390d7b71239a920e15211854e3') in 0.006313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.243910 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0268.png
+  artifactKey: Guid(fbcfea0c93121a5499b50450c3647259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0268.png using Guid(fbcfea0c93121a5499b50450c3647259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b1eabcc329e40d9cfd807edf02561d') in 0.010207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0276.png
+  artifactKey: Guid(42ada976df0759e4eb9bc1f8390205ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0276.png using Guid(42ada976df0759e4eb9bc1f8390205ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fd117595ce8ced865bb62de4dfe40a') in 0.018622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0278.png
+  artifactKey: Guid(8b4f4f01ce1bacc41b2e8e773ccbb977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0278.png using Guid(8b4f4f01ce1bacc41b2e8e773ccbb977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04faaed5d8360b5ad7ce078158f4b9f2') in 0.009029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0271.png
+  artifactKey: Guid(d05c8fc38d76c52488b77addd242f185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0271.png using Guid(d05c8fc38d76c52488b77addd242f185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3ca3188b2d1842b5f0d89ff5b24d34') in 0.009312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0274.png
+  artifactKey: Guid(16e08cf6ae1356948aa7e480a15386e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0274.png using Guid(16e08cf6ae1356948aa7e480a15386e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f5c53122e4eddb364e308b92201648') in 0.006033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0273.png
+  artifactKey: Guid(21d58be2411dff14cb36a84c910e208b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0273.png using Guid(21d58be2411dff14cb36a84c910e208b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2611c7b65f42d63485dc8c33f07bd5c1') in 0.008672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0279.png
+  artifactKey: Guid(522894ceba237f040886fdefba65e870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0279.png using Guid(522894ceba237f040886fdefba65e870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5f064d3d5ae3ef1e22ffa2fe0a484b') in 0.007525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.164365 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0282.png
+  artifactKey: Guid(d6ee7f51e72d97d45a52922ecb252722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0282.png using Guid(d6ee7f51e72d97d45a52922ecb252722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aae30d114397fc81ac1ebcf56f599cbe') in 0.026271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0291.png
+  artifactKey: Guid(80c992aa32c2a94408b8b0e8715089b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0291.png using Guid(80c992aa32c2a94408b8b0e8715089b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be75ab6ad4696d129ace67679fae6762') in 0.007768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0293.png
+  artifactKey: Guid(fe9d468e7cbe79a41bba490bfbc41037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0293.png using Guid(fe9d468e7cbe79a41bba490bfbc41037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e650b36ea0f0dd36fc6d116a1173e0ef') in 0.008554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0288.png
+  artifactKey: Guid(79c6f8f331443334ba3cbf5699dc194e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0288.png using Guid(79c6f8f331443334ba3cbf5699dc194e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6c40385a6490333f3915b32b7946300') in 0.008756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0289.png
+  artifactKey: Guid(749512899928bba429026e3f3c91cbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0289.png using Guid(749512899928bba429026e3f3c91cbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830217303762f81f971d0f79ffaa43d6') in 0.010307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0284.png
+  artifactKey: Guid(0673d408ead075747a4b4b7a785efe17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0284.png using Guid(0673d408ead075747a4b4b7a785efe17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c05f303e69c4bfdfe3521b5bc6f383') in 0.009237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0285.png
+  artifactKey: Guid(2f39bfb2645dc7649817e7c28feae78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0285.png using Guid(2f39bfb2645dc7649817e7c28feae78f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24de4cf9cd07c56c5e0fa34fa7cdb60b') in 0.009089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.504011 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0296.png
+  artifactKey: Guid(668e90efa6550e844bdd869fd2c24999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0296.png using Guid(668e90efa6550e844bdd869fd2c24999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21896f861d0865ecf388bab40c04f2b') in 0.018867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0308.png
+  artifactKey: Guid(154a266b5aa145c4790513af83017ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0308.png using Guid(154a266b5aa145c4790513af83017ff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541a764eb586105ddc056dd627117faf') in 0.014610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0302.png
+  artifactKey: Guid(27e419371bae49f44863c4006ff76042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0302.png using Guid(27e419371bae49f44863c4006ff76042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136cc083fbac984868b3fc4e5b72ffa2') in 0.009994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0306.png
+  artifactKey: Guid(10f9c9bec60d5f74e90d1c4f0d048c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0306.png using Guid(10f9c9bec60d5f74e90d1c4f0d048c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8566dd55949251e6408cd16ccdd2f57a') in 0.008475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0305.png
+  artifactKey: Guid(9b496f05594c6fe49b733ff49bbfa69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0305.png using Guid(9b496f05594c6fe49b733ff49bbfa69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220558869b3951a89758640e820fa958') in 0.012853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0307.png
+  artifactKey: Guid(ddb1e572089228f4cbb613bad856fbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0307.png using Guid(ddb1e572089228f4cbb613bad856fbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '268464a397d865a04ab1254904827c65') in 0.008815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/MainGameAssets/Tiles/Default/tile_0297.png
+  artifactKey: Guid(a47fbba0b388308499a304bfba2c7805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MainGameAssets/Tiles/Default/tile_0297.png using Guid(a47fbba0b388308499a304bfba2c7805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f85d0ab74c82fda5ae4966356fe0814b') in 0.008706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.417 seconds
-Refreshing native plugins compatible for Editor in 2.38 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.422 seconds
+Refreshing native plugins compatible for Editor in 9.01 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.113 seconds
-Domain Reload Profiling: 1530ms
-	BeginReloadAssembly (153ms)
+- Finished resetting the current domain, in  1.460 seconds
+Domain Reload Profiling: 1880ms
+	BeginReloadAssembly (128ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (33ms)
-	LoadAllAssembliesAndSetupDomain (172ms)
-		LoadAssemblies (230ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (223ms)
+		LoadAssemblies (269ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (15ms)
-			TypeCache.Refresh (7ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (5ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (1114ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1462ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (675ms)
+		SetupLoadedEditorAssemblies (562ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (72ms)
-			ProcessInitializeOnLoadAttributes (547ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (415ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 2.67 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 5.26 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4030 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 36 unused Assets / (36.3 KB). Loaded Objects now: 4532.
-Memory consumption went from 148.1 MB to 148.1 MB.
-Total: 4.219900 ms (FindLiveObjects: 0.390000 ms CreateObjectMapping: 0.284200 ms MarkObjects: 3.478000 ms  DeleteObjects: 0.066700 ms)
+Unloading 4036 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (216.7 KB). Loaded Objects now: 4527.
+Memory consumption went from 150.2 MB to 150.0 MB.
+Total: 4.446300 ms (FindLiveObjects: 0.290400 ms CreateObjectMapping: 0.144100 ms MarkObjects: 3.801800 ms  DeleteObjects: 0.208900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
@@ -254,54 +757,121 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.439 seconds
-Refreshing native plugins compatible for Editor in 6.54 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.451 seconds
+Refreshing native plugins compatible for Editor in 8.50 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.404 seconds
-Domain Reload Profiling: 1839ms
-	BeginReloadAssembly (143ms)
+- Finished resetting the current domain, in  1.296 seconds
+Domain Reload Profiling: 1742ms
+	BeginReloadAssembly (146ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (7ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (24ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (23ms)
 	LoadAllAssembliesAndSetupDomain (234ms)
-		LoadAssemblies (282ms)
+		LoadAssemblies (298ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (23ms)
-			TypeCache.Refresh (6ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (4ms)
 				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (1404ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1297ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (627ms)
+		SetupLoadedEditorAssemblies (561ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (26ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (77ms)
-			ProcessInitializeOnLoadAttributes (475ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (416ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 7.40 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 6.38 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4037 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (217.2 KB). Loaded Objects now: 4533.
-Memory consumption went from 156.2 MB to 156.0 MB.
-Total: 4.220200 ms (FindLiveObjects: 0.305900 ms CreateObjectMapping: 0.113800 ms MarkObjects: 3.613300 ms  DeleteObjects: 0.186600 ms)
+Unloading 42 unused Assets / (217.0 KB). Loaded Objects now: 4531.
+Memory consumption went from 152.4 MB to 152.2 MB.
+Total: 4.263100 ms (FindLiveObjects: 0.279400 ms CreateObjectMapping: 0.078100 ms MarkObjects: 3.685500 ms  DeleteObjects: 0.219400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.432 seconds
+Refreshing native plugins compatible for Editor in 6.44 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.377 seconds
+Domain Reload Profiling: 1804ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (220ms)
+		LoadAssemblies (278ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1378ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (608ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (457ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 7.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4037 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (216.6 KB). Loaded Objects now: 4535.
+Memory consumption went from 154.3 MB to 154.1 MB.
+Total: 4.592200 ms (FindLiveObjects: 0.343600 ms CreateObjectMapping: 0.146400 ms MarkObjects: 3.812000 ms  DeleteObjects: 0.289000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
