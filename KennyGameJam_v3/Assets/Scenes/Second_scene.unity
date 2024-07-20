@@ -166,7 +166,7 @@ GameObject:
   - component: {fileID: 157625039}
   - component: {fileID: 157625038}
   - component: {fileID: 157625041}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Start_Moving_box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -258,8 +258,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 2066711291
   m_SortingLayer: 3
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 055144d40a50e2f48b7decfd19167977, type: 3}
+  m_SortingOrder: 2
+  m_Sprite: {fileID: 21300000, guid: bece798f60a8aa840a3c2c1932e5e4b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
