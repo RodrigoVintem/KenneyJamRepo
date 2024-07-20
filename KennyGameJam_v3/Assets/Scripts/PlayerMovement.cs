@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public Transform SpawnPoint;
+    private static PlayerMovement instance;
     [SerializeField] GameObject Body;
     public Animator playerAnimations;
     public float moveSpeed = 5f;
@@ -16,6 +18,20 @@ public class PlayerMovement : MonoBehaviour
     private bool isGrounded;
     private Vector3 originalScale;
     private Queue<GameObject> spawnedBodies = new Queue<GameObject>();
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(SpawnPoint.gameObject);
+        if (instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(this.gameObject); // Ensure this GameObject persists
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     void Start()
     {
@@ -78,5 +94,6 @@ public class PlayerMovement : MonoBehaviour
 
         // Reload the current scene
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        transform.position = SpawnPoint.position;
     }
 }
