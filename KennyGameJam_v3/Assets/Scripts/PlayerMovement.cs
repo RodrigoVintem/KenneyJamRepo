@@ -7,9 +7,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public Transform SpawnPoint;
     private static PlayerMovement instance;
-    private Queue<GameObject> spawnedBodies = new Queue<GameObject>();
     [SerializeField] GameObject Body;
-    
     public Animator playerAnimations;
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
@@ -19,6 +17,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private bool isGrounded;
     private Vector3 originalScale;
+    private Queue<GameObject> spawnedBodies = new Queue<GameObject>();
 
     private void Awake()
     {
@@ -33,11 +32,9 @@ public class PlayerMovement : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    
 
     void Start()
     {
-        
         rb = GetComponent<Rigidbody2D>();
         originalScale = transform.localScale; 
     }
@@ -48,6 +45,7 @@ public class PlayerMovement : MonoBehaviour
         {
             SpawnBody();
         }
+        
         // bla bla
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
         playerAnimations.SetBool("IsJumping", !isGrounded);
@@ -76,16 +74,16 @@ public class PlayerMovement : MonoBehaviour
         playerAnimations.SetBool("IsRuning", rb.velocity.x != 0);
     }
 
-
     public void SpawnBody()
     {
         // Instantiate a new body at the player's position
         GameObject spawnedBody = Instantiate(Body, transform.position, transform.rotation);
+        DontDestroyOnLoad(spawnedBody);
 
         // Add the spawned body to the queue
         spawnedBodies.Enqueue(spawnedBody);
 
-        Debug.Log("Bodies in queue: " + spawnedBodies.Count);
+        Debug.Log(spawnedBodies);
 
         // If there are more than 5 bodies, remove the oldest one
         if (spawnedBodies.Count > 5)
@@ -93,12 +91,9 @@ public class PlayerMovement : MonoBehaviour
             GameObject oldBody = spawnedBodies.Dequeue();
             Destroy(oldBody);
         }
-        DontDestroyOnLoad(spawnedBody); // Ensure each spawned body persists
 
         // Reload the current scene
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-
         transform.position = SpawnPoint.position;
     }
-    
 }
