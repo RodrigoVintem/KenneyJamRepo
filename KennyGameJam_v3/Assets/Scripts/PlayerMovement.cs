@@ -15,6 +15,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private bool isGrounded;
     private Vector3 originalScale;
+    private Queue<GameObject> spawnedBodies = new Queue<GameObject>();
 
     void Start()
     {
@@ -24,10 +25,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1"))
         {
             SpawnBody();
         }
+        
         // bla bla
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
         playerAnimations.SetBool("IsJumping", !isGrounded);
@@ -41,27 +43,40 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
-        if(rb.velocity.x > 0)
+        
+        // Ensure the player is facing the right direction
+        if (rb.velocity.x > 0)
         {
             transform.localScale = new Vector3(Mathf.Abs(originalScale.x), originalScale.y, originalScale.z);
         }
-        if(rb.velocity.x < 0)
+        if (rb.velocity.x < 0)
         {
             transform.localScale = new Vector3(-Mathf.Abs(originalScale.x), originalScale.y, originalScale.z);
         }
-        if(rb.velocity.x != 0)
-        {
-            playerAnimations.SetBool("IsRuning", true);
-        }
-        else if(rb.velocity.x == 0)
-        {
-            playerAnimations.SetBool("IsRuning", false);
-        }
+
+        // Handle animations
+        playerAnimations.SetBool("IsRuning", rb.velocity.x != 0);
     }
+
     public void SpawnBody()
     {
-        GameObject SpawnedBody = Instantiate(Body, transform.position, transform.rotation);
-        DontDestroyOnLoad(SpawnedBody);
+        // Instantiate a new body at the player's position
+        GameObject spawnedBody = Instantiate(Body, transform.position, transform.rotation);
+        DontDestroyOnLoad(spawnedBody);
+
+        // Add the spawned body to the queue
+        spawnedBodies.Enqueue(spawnedBody);
+
+        Debug.Log(spawnedBodies);
+
+        // If there are more than 5 bodies, remove the oldest one
+        if (spawnedBodies.Count > 5)
+        {
+            GameObject oldBody = spawnedBodies.Dequeue();
+            Destroy(oldBody);
+        }
+
+        // Reload the current scene
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
