@@ -426,7 +426,7 @@ GameObject:
   - component: {fileID: 497498413}
   - component: {fileID: 497498412}
   - component: {fileID: 497498411}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: Collisions_map
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3630,7 +3630,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
-  rb: {fileID: 0}
+  rb: {fileID: 579713605}
   isGrounded: 0
 --- !u!50 &579713605
 Rigidbody2D:
@@ -124012,6 +124012,7 @@ GameObject:
   - component: {fileID: 1977028104}
   - component: {fileID: 1977028103}
   - component: {fileID: 1977028102}
+  - component: {fileID: 1977028105}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -124093,6 +124094,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1977028105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1977028101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af8554982915644fa49ca396f98d75d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  smoothTime: 0.1
+  target: {fileID: 579713608}
 --- !u!1 &2112750212
 GameObject:
   m_ObjectHideFlags: 0
