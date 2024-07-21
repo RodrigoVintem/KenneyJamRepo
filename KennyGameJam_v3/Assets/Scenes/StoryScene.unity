@@ -287,7 +287,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.169933
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -313,8 +313,8 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: -4.98, y: -4.98, z: -4.98}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -467,7 +467,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -453}
+  m_AnchoredPosition: {x: 2, y: -367}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1875228654
@@ -622,8 +622,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 31}
-  m_SizeDelta: {x: 200, y: 0}
+  m_AnchoredPosition: {x: 13.8, y: 145}
+  m_SizeDelta: {x: 582.6, y: -133.56}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1918724814
 MonoBehaviour:
@@ -645,9 +645,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Many, many years ago there was a tribe Qupi. They had strange traditions.
-    For example, in order to continue the family line, a man had to climb a mountain,
-    on the top of which women lived. But the path was long and difficult. \r\n"
+  m_text: 'The Qupi are a strange species with strange traditions.
+
+
+    The Qupi
+    mate for life, but there are few females available during the mating season.
+
+
+    To
+    continue the family line, a male has to climb the mountain, on top of which the
+    females live.
+
+
+    If a Qupi doesn''t make it to the top, another will come
+    along to try his luck'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cb313ece75eb9594091529b49b4dbdb6, type: 2}
   m_sharedMaterial: {fileID: -2186147989032702675, guid: cb313ece75eb9594091529b49b4dbdb6, type: 2}
@@ -674,14 +685,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 92.4
-  m_fontSizeBase: 92.4
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 16
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
