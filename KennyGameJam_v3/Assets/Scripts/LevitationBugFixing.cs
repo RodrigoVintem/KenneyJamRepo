@@ -5,31 +5,38 @@ using UnityEngine;
 public class LevitationBugFixing : MonoBehaviour
 {
     public PlayerMovement playerMovement;
-    private bool HereWall = false;
+    private bool isTouchingWall = false;
 
-    private void OnTriggerEnter2D(Collider2D other) {
-        if(other.gameObject.tag != "Player")
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Wall") || other.CompareTag("MovingPlatform")) // Ensure the wall objects have the "Wall" tag
         {
-            HereWall = true;
+            isTouchingWall = true;
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other) {
-        if(other.gameObject.tag != "Player")
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Wall") || other.CompareTag("MovingPlatform"))
         {
-            HereWall = false;
+            isTouchingWall = false;
         }
     }
 
-    private void Update() {
-        if(HereWall && playerMovement.rb.velocity.x != 0 && !playerMovement.isGrounded)
+    private void Update()
+    {
+        if (isTouchingWall && !playerMovement.isGrounded)
         {
-            Debug.Log("asdf");
-            Vector2 newVelocity = playerMovement.rb.velocity;
-            newVelocity.x = 0;
-            playerMovement.rb.velocity = newVelocity;
-            Debug.Log(playerMovement.rb.velocity.x);
+            // Stop horizontal movement
+            Vector2 velocity = playerMovement.rb.velocity;
+            if (Mathf.Abs(velocity.x) > 0)
+            {
+                playerMovement.moveSpeed = 0f;
+            }
+        }
+        else 
+        {
+            playerMovement.moveSpeed = 8f;
         }
     }
-
 }
