@@ -1314,6 +1314,7 @@ GameObject:
   m_Component:
   - component: {fileID: 294145336}
   - component: {fileID: 294145337}
+  - component: {fileID: 294145338}
   m_Layer: 0
   m_Name: Spider_Up_down
   m_TagString: Untagged
@@ -1389,6 +1390,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &294145338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294145335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cda2fc98eb83dac489cedd1b23538d40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointA: {fileID: 0}
+  pointB: {fileID: 0}
+  speed: 2
 --- !u!1 &306285350
 GameObject:
   m_ObjectHideFlags: 0
@@ -1505,6 +1521,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextLevelIndex: 4
+  Destric: {fileID: 0}
 --- !u!61 &311444133
 BoxCollider2D:
   m_ObjectHideFlags: 0
