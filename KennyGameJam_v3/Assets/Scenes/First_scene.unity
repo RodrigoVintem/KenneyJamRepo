@@ -615,7 +615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e189d2d4b0bc643bd2aee833e340ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextLevelIndex: 2
+  nextLevelIndex: 3
 --- !u!1 &1106821525
 GameObject:
   m_ObjectHideFlags: 0
@@ -1822,6 +1822,7 @@ MonoBehaviour:
   playerAnimations: {fileID: 1328350043}
   moveSpeed: 8
   jumpForce: 13
+  fallSpeed: 10
   groundCheck: {fileID: 1330826497}
   groundLayer:
     serializedVersion: 2
