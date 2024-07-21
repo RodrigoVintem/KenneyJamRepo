@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class FinalAnimationController : MonoBehaviour
 {
+    public Animator finalFemaleRun;
     public Animator finalAnimationPlayer;
 
     private void Start() {
@@ -17,5 +18,9 @@ public class FinalAnimationController : MonoBehaviour
     public void StopRuning()
     {
         finalAnimationPlayer.SetBool("IsRuning", false);
+    }
+    public void FemaleStartRun()
+    {
+        finalFemaleRun.SetBool("FemaleIsRunning", true);
     }
 }
