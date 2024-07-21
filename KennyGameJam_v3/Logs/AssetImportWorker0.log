@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.25f1 (530ae0ba3889) revision 5442272'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'pt' Physical Memory: 32038 MB
+OS: 'Windows 10  (10.0.17763) 64bit EnterpriseS' Language: 'ru' Physical Memory: 16234 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.25f1\Editor\Unity.exe
+D:\2022.3.25f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/rodri/OneDrive - Feels Like Home/Pessoal/Unity/GitHub_Repositorys/KenneyJamRepo/KennyGameJam_v3
+D:/GitHub/KenneyJamRepo/KennyGameJam_v3
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55606
-Successfully changed project path to: C:/Users/rodri/OneDrive - Feels Like Home/Pessoal/Unity/GitHub_Repositorys/KenneyJamRepo/KennyGameJam_v3
-C:/Users/rodri/OneDrive - Feels Like Home/Pessoal/Unity/GitHub_Repositorys/KenneyJamRepo/KennyGameJam_v3
+52284
+Successfully changed project path to: D:/GitHub/KenneyJamRepo/KennyGameJam_v3
+D:/GitHub/KenneyJamRepo/KennyGameJam_v3
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,68 +49,65 @@ C:/Users/rodri/OneDrive - Feels Like Home/Pessoal/Unity/GitHub_Repositorys/Kenne
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [2076] Host "[IP] 192.168.1.88 [Port] 0 [Flags] 2 [Guid] 3769311088 [EditorId] 3769311088 [Version] 1048832 [Id] WindowsEditor(7,Rodrigo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18660] Host "[IP] 192.168.31.25 [Port] 0 [Flags] 2 [Guid] 366010845 [EditorId] 366010845 [Version] 1048832 [Id] WindowsEditor(7,Computer) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [2076] Host "[IP] 192.168.1.88 [Port] 0 [Flags] 2 [Guid] 3769311088 [EditorId] 3769311088 [Version] 1048832 [Id] WindowsEditor(7,Rodrigo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18660] Host "[IP] 192.168.31.25 [Port] 0 [Flags] 2 [Guid] 366010845 [EditorId] 366010845 [Version] 1048832 [Id] WindowsEditor(7,Computer) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 13.62 ms, found 4 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 8.96 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.25f1 (530ae0ba3889)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/rodri/OneDrive - Feels Like Home/Pessoal/Unity/GitHub_Repositorys/KenneyJamRepo/KennyGameJam_v3/Assets
+[Subsystems] Discovering subsystems at path D:/2022.3.25f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/KenneyJamRepo/KennyGameJam_v3/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28a1)
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c91)
     Vendor:   NVIDIA
-    VRAM:     5921 MB
-    Driver:   32.0.15.5612
+    VRAM:     2996 MB
+    Driver:   31.0.15.4626
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
+Mono path[0] = 'D:/2022.3.25f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2022.3.25f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2022.3.25f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006807 seconds.
-- Loaded All Assemblies, in  0.303 seconds
+Register platform support module: D:/2022.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002265 seconds.
+- Loaded All Assemblies, in  0.457 seconds
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 336 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.639 seconds
-Domain Reload Profiling: 940ms
-	BeginReloadAssembly (97ms)
+- Finished resetting the current domain, in  0.360 seconds
+Domain Reload Profiling: 817ms
+	BeginReloadAssembly (120ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (26ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (119ms)
-		LoadAssemblies (95ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (215ms)
+		LoadAssemblies (119ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (117ms)
-			TypeCache.Refresh (116ms)
-				TypeCache.ScanAssembly (106ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (639ms)
+		AnalyzeDomain (212ms)
+			TypeCache.Refresh (210ms)
+				TypeCache.ScanAssembly (191ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (360ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (588ms)
+		SetupLoadedEditorAssemblies (285ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (439ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (103ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (200ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,60 +115,58 @@ Domain Reload Profiling: 940ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.585 seconds
-Refreshing native plugins compatible for Editor in 5.52 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.752 seconds
+Refreshing native plugins compatible for Editor in 3.42 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.655 seconds
-Domain Reload Profiling: 1236ms
-	BeginReloadAssembly (144ms)
+- Finished resetting the current domain, in  1.167 seconds
+Domain Reload Profiling: 1919ms
+	BeginReloadAssembly (165ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (355ms)
-		LoadAssemblies (284ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (471ms)
+		LoadAssemblies (294ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (153ms)
-			TypeCache.Refresh (134ms)
-				TypeCache.ScanAssembly (121ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (656ms)
+		AnalyzeDomain (267ms)
+			TypeCache.Refresh (227ms)
+				TypeCache.ScanAssembly (206ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1168ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (510ms)
+		SetupLoadedEditorAssemblies (940ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (25ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (386ms)
-			ProcessInitializeOnLoadMethodAttributes (28ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (776ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 5.98 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.06 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4058 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (244.9 KB). Loaded Objects now: 4518.
-Memory consumption went from 153.7 MB to 153.4 MB.
-Total: 3.863100 ms (FindLiveObjects: 0.396000 ms CreateObjectMapping: 0.106000 ms MarkObjects: 3.125000 ms  DeleteObjects: 0.235100 ms)
+Unloading 64 unused Assets / (61.2 KB). Loaded Objects now: 4522.
+Memory consumption went from 147.8 MB to 147.7 MB.
+Total: 5.953700 ms (FindLiveObjects: 0.340500 ms CreateObjectMapping: 0.335100 ms MarkObjects: 5.096800 ms  DeleteObjects: 0.180200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
@@ -185,76 +180,385 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 241297.259180 seconds.
-  path: Assets/Scenes/Third_scene.unity
-  artifactKey: Guid(13526323d2670584ea9e566320c41db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Third_scene.unity using Guid(13526323d2670584ea9e566320c41db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70a8a861e8c80ac76cfe42e85a46a801') in 0.002214 seconds
+  Time since last request: 20424.677856 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_10.png
+  artifactKey: Guid(f14c73dee19bc194b822dc431a6893f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_10.png using Guid(f14c73dee19bc194b822dc431a6893f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fffa946c160cf5038d96781f306d65c') in 0.138183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_47.png
+  artifactKey: Guid(5cde41040616b7c4d853cd23b56bb3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_47.png using Guid(5cde41040616b7c4d853cd23b56bb3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd458c67ed28e37ba499b101a18f01857') in 0.020959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_63.png
+  artifactKey: Guid(503376c75d3473844ad94838570db4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_63.png using Guid(503376c75d3473844ad94838570db4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503a6b435709e10e44a15f247fc03075') in 0.021843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/Sample1.png
+  artifactKey: Guid(b7591ff6cf6683940961b7562126d4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/Sample1.png using Guid(b7591ff6cf6683940961b7562126d4af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84dc85cbd69f76dc344841ea2d37de8') in 0.046829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_64.png
+  artifactKey: Guid(450bbc2947b0188499a05dd89b9b313a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_64.png using Guid(450bbc2947b0188499a05dd89b9b313a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd93818e153e8710302938d1477ee43') in 0.017210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_66.png
+  artifactKey: Guid(985dabd5705d1c5488eb5cc41fc53445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_66.png using Guid(985dabd5705d1c5488eb5cc41fc53445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12b2e1269a73221834c4ecfeaf0daef') in 0.014784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_35.png
+  artifactKey: Guid(ceded11fbed75b64c9418c0bacb8c5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_35.png using Guid(ceded11fbed75b64c9418c0bacb8c5df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a0433cc75540dfe4bfe855e7e30bfd') in 0.009284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_45.png
+  artifactKey: Guid(8d8510afc6d6fd546b0b26a4207dc7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_45.png using Guid(8d8510afc6d6fd546b0b26a4207dc7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb532215870c42a890fa10af47b94d2') in 0.015494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/Preview.png
+  artifactKey: Guid(4cfe3d1421bb42e4bbf58bc17b7c8cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/Preview.png using Guid(4cfe3d1421bb42e4bbf58bc17b7c8cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81db95a28d9bd2ff2eb702ca23c62e40') in 0.022114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_14.png
+  artifactKey: Guid(6233ee5ba742d5d48bc0350cc12f61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_14.png using Guid(6233ee5ba742d5d48bc0350cc12f61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08587d7a4559453f05c79f01deec906') in 0.008934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_27.png
+  artifactKey: Guid(3e4b66b92a603c54386757a63f7462cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_27.png using Guid(3e4b66b92a603c54386757a63f7462cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f113d6316809ee3f2cfd90b62a49f4b7') in 0.010285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_29.png
+  artifactKey: Guid(c810044746db44c43a5a1cfd2c7b6d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_29.png using Guid(c810044746db44c43a5a1cfd2c7b6d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b792e58fdae75d3ce7a854ce844f37') in 0.010534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_04.png
+  artifactKey: Guid(da1cecac6c29877469d98625a5ff055a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_04.png using Guid(da1cecac6c29877469d98625a5ff055a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5f242e01c95495ad8572b0053b13f0') in 0.012641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_30.png
+  artifactKey: Guid(eae3708cb96685f41b1742279d370c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_30.png using Guid(eae3708cb96685f41b1742279d370c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4f84f961df0184e2f96310882f4403') in 0.018349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/Sample4.png
+  artifactKey: Guid(5e2dd5adc9a7f84408b569014930c57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/Sample4.png using Guid(5e2dd5adc9a7f84408b569014930c57b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9a14e6f30842e1cf3d682b42ef38ae') in 0.053248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/PNG
+  artifactKey: Guid(688627acc940ad34ba26b62b7d1573be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/PNG using Guid(688627acc940ad34ba26b62b7d1573be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f8d8f905e7f170244941008114e275') in 0.000552 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.440 seconds
-Refreshing native plugins compatible for Editor in 5.96 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.216 seconds
-Domain Reload Profiling: 1651ms
-	BeginReloadAssembly (156ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (222ms)
-		LoadAssemblies (281ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (9ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (1217ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (526ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (393ms)
-			ProcessInitializeOnLoadMethodAttributes (31ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 7.07 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4038 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (217.2 KB). Loaded Objects now: 4523.
-Memory consumption went from 150.2 MB to 150.0 MB.
-Total: 4.573200 ms (FindLiveObjects: 0.435500 ms CreateObjectMapping: 0.116000 ms MarkObjects: 3.648400 ms  DeleteObjects: 0.372200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_44.png
+  artifactKey: Guid(043b2824dd1e53c4ebeba1948ca1d946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_44.png using Guid(043b2824dd1e53c4ebeba1948ca1d946) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e496adbd963bd7db0562b67b16c087d') in 0.011990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_25.png
+  artifactKey: Guid(e3de82bb691e0094baf1d26a60c13c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_25.png using Guid(e3de82bb691e0094baf1d26a60c13c1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439f67c52cc970b8a826301a5ebb8fea') in 0.012533 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_43.png
+  artifactKey: Guid(66720cd3fde7c364a844693db5dba403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_43.png using Guid(66720cd3fde7c364a844693db5dba403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bd8101628d749abf7731419d54aad93') in 0.012395 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_37.png
+  artifactKey: Guid(809dc131cd606a548aae1c876c1cd02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_37.png using Guid(809dc131cd606a548aae1c876c1cd02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282394f36a38ea1593528fd6675341b6') in 0.012576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_09.png
+  artifactKey: Guid(c036b4c8a9d1e7540a07f5ada56c0e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_09.png using Guid(c036b4c8a9d1e7540a07f5ada56c0e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c8d15692faa7fff9b314f6863766cd') in 0.031540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_60.png
+  artifactKey: Guid(03229a2d5101adf48b5e629f932b8124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_60.png using Guid(03229a2d5101adf48b5e629f932b8124) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded800e6dda5edfb27c3d3b1ab989bd2') in 0.010869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_62.png
+  artifactKey: Guid(0ff25029437b55d409088ef007975a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_62.png using Guid(0ff25029437b55d409088ef007975a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37de61d63d7e3b0b8191f568086d90db') in 0.012476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_65.png
+  artifactKey: Guid(3e1c826c1de9e88458528da74cce3786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_65.png using Guid(3e1c826c1de9e88458528da74cce3786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ab5157c33c0b0b9b81bd7a5dacac71') in 0.011170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_58.png
+  artifactKey: Guid(80b4bd3fc118fb241a3918a33bde3262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_58.png using Guid(80b4bd3fc118fb241a3918a33bde3262) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bc6d1f8ffcb103e59e865d23ba05e2') in 0.011284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_69.png
+  artifactKey: Guid(95c3bdec0ebbd284f945514ae0caf117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_puzzle-pack-2/PNG/Tiles green/tileGreen_69.png using Guid(95c3bdec0ebbd284f945514ae0caf117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5856f26b2ed08bdd806b9e96093bc97b') in 0.011062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.978709 seconds.
+  path: Assets/Menu_assets/kenney_shape-characters/Sample.png
+  artifactKey: Guid(775eb86e846088647b4e744142f2164d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_shape-characters/Sample.png using Guid(775eb86e846088647b4e744142f2164d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fc69fcdd802b293fa9b056a7271e59') in 0.043140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.015218 seconds.
+  path: Assets/Menu_assets/kenney_shape-characters/PNG/Double/blue_body_squircle.png
+  artifactKey: Guid(7136b66893d76c14ea405a2f3dcfef5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_shape-characters/PNG/Double/blue_body_squircle.png using Guid(7136b66893d76c14ea405a2f3dcfef5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfa28ae575efcaaf541df08aa294cbd') in 0.006918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.153105 seconds.
+  path: Assets/Menu_assets/kenney_shape-characters/PNG/Double/blue_hand_rock.png
+  artifactKey: Guid(5c624ded93385d047b409c7a16045c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_shape-characters/PNG/Double/blue_hand_rock.png using Guid(5c624ded93385d047b409c7a16045c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf45f1aec31cce903513585f922ffd47') in 0.008182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.023303 seconds.
+  path: Assets/Menu_assets/kenney_shape-characters/PNG/Double/face_c.png
+  artifactKey: Guid(128c46b1a27c7e94aa20c74e6e2ce09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_shape-characters/PNG/Double/face_c.png using Guid(128c46b1a27c7e94aa20c74e6e2ce09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e902b306f5ef6190de4e88d2a4e717') in 0.008518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010974 seconds.
+  path: Assets/Menu_assets/kenney_shape-characters/PNG/Double/face_e.png
+  artifactKey: Guid(6c45a0b75283097418c67b8713442cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_shape-characters/PNG/Double/face_e.png using Guid(6c45a0b75283097418c67b8713442cf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7219c2a3b61a41b204eaa69f081c051e') in 0.008957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.021281 seconds.
+  path: Assets/Menu_assets/kenney_shape-characters/PNG/Double/face_g.png
+  artifactKey: Guid(9db8fd8f32cddde45950c0b5c0a0e5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_shape-characters/PNG/Double/face_g.png using Guid(9db8fd8f32cddde45950c0b5c0a0e5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c5dada516a9ebc3fde80a43a4d911da') in 0.007603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.031508 seconds.
+  path: Assets/Menu_assets/kenney_shape-characters/PNG/Double/face_l.png
+  artifactKey: Guid(4d0be936dd716a24c9b4a1b96f14a0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_shape-characters/PNG/Double/face_l.png using Guid(4d0be936dd716a24c9b4a1b96f14a0dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f14d77b55c18fb9fcffc0c91200082') in 0.007932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.012254 seconds.
+  path: Assets/Menu_assets/kenney_shape-characters/PNG/Double/facial_part_eye_half_top.png
+  artifactKey: Guid(739e91bc5e0e23b4b99dac1ff81d7c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_shape-characters/PNG/Double/facial_part_eye_half_top.png using Guid(739e91bc5e0e23b4b99dac1ff81d7c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ef3815f8d8d0a14cf1413254bc0874') in 0.009803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.010042 seconds.
+  path: Assets/Menu_assets/kenney_shape-characters/PNG/Double/facial_part_eyebrow_a.png
+  artifactKey: Guid(2127fc2ec2f25824aac61ff4150ebbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_shape-characters/PNG/Double/facial_part_eyebrow_a.png using Guid(2127fc2ec2f25824aac61ff4150ebbf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c3afc2413b6bcbdab9ceb6587c52ee') in 0.009317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Menu_assets/kenney_shape-characters/PNG/Double/facial_part_mouth_sad.png
+  artifactKey: Guid(1b8602e4c2837144083c76efbd51f71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_shape-characters/PNG/Double/facial_part_mouth_sad.png using Guid(1b8602e4c2837144083c76efbd51f71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b89e7dbd82efa3d328d289f2b94fe95') in 0.008560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.008764 seconds.
+  path: Assets/Menu_assets/kenney_shape-characters/PNG/Double/green_body_circle.png
+  artifactKey: Guid(1d22dd005587ef045909fb82316860e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_shape-characters/PNG/Double/green_body_circle.png using Guid(1d22dd005587ef045909fb82316860e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72fe1d45a5e7383404fc7a121d6c72f0') in 0.011808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Menu_assets/kenney_shape-characters/PNG/Double/green_hand_rock.png
+  artifactKey: Guid(2d6cee7b29f49da4dbd31fa57c363ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_shape-characters/PNG/Double/green_hand_rock.png using Guid(2d6cee7b29f49da4dbd31fa57c363ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0addcb5cd359bb7082c15ed03cf0ddb6') in 0.009538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Menu_assets/kenney_shape-characters/PNG/Double/green_body_squircle.png
+  artifactKey: Guid(56c34be41fc3d3540ae04b7143faf0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_shape-characters/PNG/Double/green_body_squircle.png using Guid(56c34be41fc3d3540ae04b7143faf0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7159a1bb1adc85c104f670d1914acb2e') in 0.012197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Menu_assets/kenney_shape-characters/PNG/Double/hand_yellow_thumb.png
+  artifactKey: Guid(f2b5bfa335afd464293db33e8341e758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_shape-characters/PNG/Double/hand_yellow_thumb.png using Guid(f2b5bfa335afd464293db33e8341e758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7136247590cbd90ed6c7d37bfab71fc') in 0.012888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.009945 seconds.
+  path: Assets/Menu_assets/kenney_shape-characters/PNG/Double/pink_body_squircle.png
+  artifactKey: Guid(fd41aa2fdc4fa3e488d5b52fc336816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_shape-characters/PNG/Double/pink_body_squircle.png using Guid(fd41aa2fdc4fa3e488d5b52fc336816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19f0716ab848c4d76f2c04b3df2083f2') in 0.009132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.053338 seconds.
+  path: Assets/Menu_assets/kenney_shape-characters/PNG/Double/pink_hand_peace.png
+  artifactKey: Guid(3284e50994652e24cb2bdb3d29d2ba97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_shape-characters/PNG/Double/pink_hand_peace.png using Guid(3284e50994652e24cb2bdb3d29d2ba97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1c7e98e1575530422d60271fcee52b') in 0.007480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.011871 seconds.
+  path: Assets/Menu_assets/kenney_shape-characters/PNG/Double/pink_hand_thumb.png
+  artifactKey: Guid(8bb1bc505542955478c41b9100d4362f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_shape-characters/PNG/Double/pink_hand_thumb.png using Guid(8bb1bc505542955478c41b9100d4362f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbf78f27d89df8105ac5945c85659cf') in 0.009843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.063939 seconds.
+  path: Assets/Menu_assets/kenney_shape-characters/PNG/Double/purple_hand_peace.png
+  artifactKey: Guid(6cbbef78ac1017146b81874a27da6208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_shape-characters/PNG/Double/purple_hand_peace.png using Guid(6cbbef78ac1017146b81874a27da6208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d0fb5e90007855da5d2e73585262cd') in 0.006052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.728247 seconds.
+  path: Assets/Menu_assets/kenney_shape-characters/PNG/Double/red_body_circle.png
+  artifactKey: Guid(136923943305348409e2e9936c09b182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_shape-characters/PNG/Double/red_body_circle.png using Guid(136923943305348409e2e9936c09b182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8dc84e7ae9e6802c0c89c2754df7ef8') in 0.008765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.175156 seconds.
+  path: Assets/Menu_assets/kenney_shape-characters/PNG/Double/red_body_square.png
+  artifactKey: Guid(c6b99404ca041654292cd5b332670988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_shape-characters/PNG/Double/red_body_square.png using Guid(c6b99404ca041654292cd5b332670988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d0255952acb04ecc425cb0c8e347f7d') in 0.008041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006577 seconds.
+  path: Assets/Menu_assets/kenney_shape-characters/PNG/Double/red_hand_peace.png
+  artifactKey: Guid(35abdf1021fed164abdfc3c7d1bc10ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_shape-characters/PNG/Double/red_hand_peace.png using Guid(35abdf1021fed164abdfc3c7d1bc10ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324690fd564b80a77916f675829cc80e') in 0.005857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.188816 seconds.
+  path: Assets/Menu_assets/kenney_shape-characters/PNG/Double/shadow.png
+  artifactKey: Guid(5c540e75a9b073d458671a8e24c8d998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu_assets/kenney_shape-characters/PNG/Double/shadow.png using Guid(5c540e75a9b073d458671a8e24c8d998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15283a0f2181c1421bbf14d79c185978') in 0.007789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
