@@ -9,7 +9,7 @@ public class LevitationBugFixing : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Wall")) // Ensure the wall objects have the "Wall" tag
+        if (other.CompareTag("Wall") || other.CompareTag("MovingPlatform")) // Ensure the wall objects have the "Wall" tag
         {
             isTouchingWall = true;
         }
@@ -17,7 +17,7 @@ public class LevitationBugFixing : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Wall"))
+        if (other.CompareTag("Wall") || other.CompareTag("MovingPlatform"))
         {
             isTouchingWall = false;
         }
@@ -36,7 +36,7 @@ public class LevitationBugFixing : MonoBehaviour
         }
         else 
         {
-            playerMovement.moveSpeed = 5f;
+            playerMovement.moveSpeed = 8f;
         }
     }
 }
