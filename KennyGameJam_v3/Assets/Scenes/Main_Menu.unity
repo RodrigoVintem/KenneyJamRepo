@@ -6784,7 +6784,6 @@ GameObject:
   m_Component:
   - component: {fileID: 712886259}
   - component: {fileID: 712886260}
-  - component: {fileID: 712886261}
   m_Layer: 5
   m_Name: VolumeSlider
   m_TagString: Untagged
@@ -6858,10 +6857,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 469189238}
   m_HandleRect: {fileID: 337737781}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 100
+  m_MinValue: -80
+  m_MaxValue: 10
   m_WholeNumbers: 0
-  m_Value: 100
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -6877,22 +6876,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &712886261
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 712886258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f2e064227c77df47a73abdbb8142b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  graphicsDropdown: {fileID: 699835613}
-  audioMixer: {fileID: 24100000, guid: 6ce10b21b5ca4f944bd45931fde1cb59, type: 2}
-  resolutionDropdown: {fileID: 930571455}
-  VolumeSlider: {fileID: 712886260}
 --- !u!1 &749286740
 GameObject:
   m_ObjectHideFlags: 0
@@ -19596,7 +19579,7 @@ AudioSource:
   m_GameObject: {fileID: 1684516221}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 6ce10b21b5ca4f944bd45931fde1cb59, type: 2}
   m_audioClip: {fileID: 8300000, guid: 234ce535fcfc72144b6edd72d92617b4, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1

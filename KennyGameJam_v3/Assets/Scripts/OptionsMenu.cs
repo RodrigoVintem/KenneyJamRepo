@@ -21,6 +21,7 @@ public class OptionsMenu : MonoBehaviour
 
     void Start ()
     {
+        audioMixer.SetFloat("volume", 0f);
         graphicsDropdown.value = PlayerPrefs.GetInt("QualityLevel", 2);
 
         resolutions = Screen.resolutions;
