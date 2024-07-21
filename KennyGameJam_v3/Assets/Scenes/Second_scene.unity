@@ -1270,9 +1270,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 261024923}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 412331d2dc48b0044a49ac9a18270d83, type: 3}
+  m_Script: {fileID: 11500000, guid: cda2fc98eb83dac489cedd1b23538d40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pointA: {fileID: 1096586978}
+  pointB: {fileID: 1873573347}
+  speed: 1
 --- !u!1 &289987584
 GameObject:
   m_ObjectHideFlags: 0
@@ -1314,7 +1317,6 @@ GameObject:
   m_Component:
   - component: {fileID: 294145336}
   - component: {fileID: 294145337}
-  - component: {fileID: 294145338}
   m_Layer: 0
   m_Name: Spider_Up_down
   m_TagString: Untagged
@@ -1390,21 +1392,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &294145338
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 294145335}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cda2fc98eb83dac489cedd1b23538d40, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointA: {fileID: 0}
-  pointB: {fileID: 0}
-  speed: 2
 --- !u!1 &306285350
 GameObject:
   m_ObjectHideFlags: 0
@@ -51343,6 +51330,37 @@ Transform:
   - {fileID: 662116978}
   m_Father: {fileID: 724520493}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1096586977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1096586978}
+  m_Layer: 0
+  m_Name: PiontAN2S
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1096586978
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096586977}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.498477, y: 19.87, z: -0.031338602}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1097887362
 GameObject:
   m_ObjectHideFlags: 0
@@ -53031,6 +53049,37 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1873573346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1873573347}
+  m_Layer: 0
+  m_Name: PointBN2S
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1873573347
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1873573346}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.498477, y: 16.188206, z: -0.031338602}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1900818129
 GameObject:
   m_ObjectHideFlags: 0
@@ -53813,3 +53862,5 @@ SceneRoots:
   - {fileID: 1725864500}
   - {fileID: 2017673445}
   - {fileID: 680866279}
+  - {fileID: 1096586978}
+  - {fileID: 1873573347}
