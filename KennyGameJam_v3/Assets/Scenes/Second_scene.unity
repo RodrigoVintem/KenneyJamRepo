@@ -378,7 +378,7 @@ GameObject:
   - component: {fileID: 86359229}
   m_Layer: 8
   m_Name: BoxCollider
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -455,7 +455,7 @@ GameObject:
   - component: {fileID: 111728885}
   m_Layer: 8
   m_Name: BoxCollider
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -875,7 +875,7 @@ GameObject:
   - component: {fileID: 249906645}
   m_Layer: 8
   m_Name: BoxCollider
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1131,7 +1131,7 @@ GameObject:
   - component: {fileID: 328642218}
   m_Layer: 8
   m_Name: Collisions_Map
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48536,7 +48536,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.4128251, y: -0.082788825}
+  m_Offset: {x: 0.4128251, y: -0.08559722}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -48547,7 +48547,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.09379673, y: 0.8925984}
+  m_Size: {x: 0.09379673, y: 0.84579146}
   m_EdgeRadius: 0
 --- !u!1 &430427133
 GameObject:
@@ -48922,7 +48922,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.4128251, y: -0.082788825}
+  m_Offset: {x: 0.4128251, y: -0.083725095}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -48933,7 +48933,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.09379673, y: 0.8925984}
+  m_Size: {x: 0.09379673, y: 0.8532808}
   m_EdgeRadius: 0
 --- !u!1 &605200604
 GameObject:
@@ -49437,7 +49437,7 @@ GameObject:
   - component: {fileID: 706883284}
   m_Layer: 8
   m_Name: BoxCollider
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51149,11 +51149,12 @@ MonoBehaviour:
   playerAnimations: {fileID: 1338712375}
   moveSpeed: 8
   jumpForce: 12
+  fallSpeed: 10
   groundCheck: {fileID: 47641074}
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
-  rb: {fileID: 0}
+  rb: {fileID: 1338712377}
   isGrounded: 0
 --- !u!50 &1338712377
 Rigidbody2D:

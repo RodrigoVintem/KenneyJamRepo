@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     public Animator playerAnimations;
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
+    public float fallSpeed = 10f; // New fall speed variable
     public Transform groundCheck;
     public LayerMask groundLayer;
 
@@ -19,10 +20,7 @@ public class PlayerMovement : MonoBehaviour
     public bool isGrounded;
     private Vector3 originalScale;
     private Queue<GameObject> spawnedBodies = new Queue<GameObject>();
-    private Transform currentPlatform;
-    private Vector3 previousPlatformPosition;
-    private Vector3 platformVelocity;
-    
+
     private void Awake()
     {
         transform.position = SpawnPoint.position;
@@ -50,23 +48,11 @@ public class PlayerMovement : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
         playerAnimations.SetBool("IsJumping", !isGrounded);
 
-        // Calculate platform velocity
-        if (currentPlatform != null)
-        {
-            platformVelocity = (currentPlatform.position - previousPlatformPosition) / Time.deltaTime;
-            previousPlatformPosition = currentPlatform.position;
-        }
-        else
-        {
-            platformVelocity = Vector3.zero;
-        }
-
         // Handle movement
         float moveInput = Input.GetAxis("Horizontal");
         Vector2 playerVelocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
         
-        // Add platform velocity to player velocity
-        playerVelocity += (Vector2)platformVelocity;
+        // Update the velocity based on platform interaction if needed
 
         rb.velocity = playerVelocity;
 
@@ -89,6 +75,12 @@ public class PlayerMovement : MonoBehaviour
 
         // Handle animations
         playerAnimations.SetBool("IsRuning", moveInput != 0);
+
+        // Check for input to destroy all bodies
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            DestroyAllBodies();
+        }
     }
 
     public void SpawnBody()
@@ -114,20 +106,12 @@ public class PlayerMovement : MonoBehaviour
         transform.position = SpawnPoint.position;
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private void DestroyAllBodies()
     {
-        if (other.gameObject.CompareTag("MovingPlatform"))
+        while (spawnedBodies.Count > 0)
         {
-            currentPlatform = other.transform;
-            previousPlatformPosition = currentPlatform.position;
-        }
-    }
-
-    private void OnCollisionExit2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("MovingPlatform"))
-        {
-            currentPlatform = null;
+            GameObject body = spawnedBodies.Dequeue();
+            Destroy(body);
         }
     }
 }
