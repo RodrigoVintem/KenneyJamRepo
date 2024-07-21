@@ -6,12 +6,14 @@ using UnityEngine.
 SceneManagement;
 public class TextAnimation : MonoBehaviour
 {
+    private GameObject objectToDestroy;
     public int nextLevelIndex;
     public TextMeshProUGUI StoryText;
     private string SaveText;
     // Start is called before the first frame update
     void Start()
     {
+        objectToDestroy = GameObject.Find("SoundDesigner");
         StartCoroutine(TypeSentence());
         
     }
@@ -31,6 +33,7 @@ public class TextAnimation : MonoBehaviour
     private void Update() {
         if(Input.GetButtonDown("Jump"))
         {
+            Destroy(objectToDestroy);
             SceneManager.LoadScene(nextLevelIndex, LoadSceneMode.Single);
         }
     }
