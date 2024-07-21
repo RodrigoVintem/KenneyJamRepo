@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class LevelMove : MonoBehaviour
 {
     public int nextLevelIndex;
+    public GameObject Destric;
 
     
 
@@ -15,6 +16,7 @@ public class LevelMove : MonoBehaviour
         if (other.tag == "Player")
         {
             Destroy(other.gameObject);
+            Destroy(Destric);
             print("Switching level to " + nextLevelIndex);
             SceneManager.LoadScene(nextLevelIndex, LoadSceneMode.Single);
         }
