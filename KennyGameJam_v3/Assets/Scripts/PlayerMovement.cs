@@ -106,8 +106,9 @@ public class PlayerMovement : MonoBehaviour
         transform.position = SpawnPoint.position;
     }
 
-    private void DestroyAllBodies()
+    public void DestroyAllBodies()
     {
+        Debug.Log("bodies destorying");
         while (spawnedBodies.Count > 0)
         {
             GameObject body = spawnedBodies.Dequeue();

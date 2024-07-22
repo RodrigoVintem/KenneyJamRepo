@@ -758,6 +758,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextLevelIndex: 3
   Destric: {fileID: 0}
+  playerMove: {fileID: 1328350042}
 --- !u!1 &1106821525
 GameObject:
   m_ObjectHideFlags: 0

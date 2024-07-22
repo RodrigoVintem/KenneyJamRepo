@@ -7,6 +7,7 @@ public class LevelMove : MonoBehaviour
 {
     public int nextLevelIndex;
     public GameObject Destric;
+    public PlayerMovement playerMove;
 
     
 
@@ -15,6 +16,7 @@ public class LevelMove : MonoBehaviour
 
         if (other.tag == "Player")
         {
+            playerMove.DestroyAllBodies();
             Destroy(other.gameObject);
             Destroy(Destric);
             print("Switching level to " + nextLevelIndex);

@@ -6,6 +6,12 @@ public class LevitationBugFixing : MonoBehaviour
 {
     public PlayerMovement playerMovement;
     private bool isTouchingWall = false;
+    private float Speed;
+
+
+    private void Start() {
+        Speed = playerMovement.moveSpeed;
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -36,7 +42,7 @@ public class LevitationBugFixing : MonoBehaviour
         }
         else 
         {
-            playerMovement.moveSpeed = 8f;
+            playerMovement.moveSpeed = Speed;
         }
     }
 }

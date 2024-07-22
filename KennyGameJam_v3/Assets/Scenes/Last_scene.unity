@@ -4586,6 +4586,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextLevelIndex: 6
   Destric: {fileID: 0}
+  playerMove: {fileID: 579713604}
 --- !u!61 &703034130
 BoxCollider2D:
   m_ObjectHideFlags: 0
