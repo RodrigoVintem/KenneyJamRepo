@@ -9,17 +9,15 @@ public class GroundCheckerScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other) {
         
-        if(other.gameObject.layer == 8)
+        if(other.gameObject.layer == 8 || other.gameObject.CompareTag("Wall"))
         {
-            Debug.Log(other.gameObject.layer);
             playerMove.isGrounded = true;
         }
     }
 
     private void OnTriggerExit2D(Collider2D other) {
-        if(other.gameObject.layer == 8)
+        if(other.gameObject.layer == 8 || other.gameObject.CompareTag("Wall"))
         {
-            Debug.Log(other.gameObject.layer);
             playerMove.isGrounded = false;
         }
     }
