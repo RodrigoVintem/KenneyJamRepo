@@ -13,8 +13,6 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
     public float fallSpeed = 10f; // New fall speed variable
-    public Transform groundCheck;
-    public LayerMask groundLayer;
 
     public Rigidbody2D rb;
     public bool isGrounded;
@@ -46,7 +44,6 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         // Check if the player is grounded
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, 0.1f, groundLayer);
         playerAnimations.SetBool("IsJumping", !isGrounded);
 
         // Handle movement
