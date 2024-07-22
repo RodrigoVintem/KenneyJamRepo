@@ -38,6 +38,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Start()
     {
+        DestroyAllBodies();
         rb = GetComponent<Rigidbody2D>();
         originalScale = transform.localScale;
     }

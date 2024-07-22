@@ -7,7 +7,6 @@ public class LevelMove : MonoBehaviour
 {
     public int nextLevelIndex;
     public GameObject Destric;
-    public PlayerMovement playerMove;
 
     
 
@@ -16,11 +15,24 @@ public class LevelMove : MonoBehaviour
 
         if (other.tag == "Player")
         {
-            playerMove.DestroyAllBodies();
+            DestroyAllDiethBodiesInScene();
             Destroy(other.gameObject);
             Destroy(Destric);
             print("Switching level to " + nextLevelIndex);
             SceneManager.LoadScene(nextLevelIndex, LoadSceneMode.Single);
+        }
+    }
+
+    void DestroyAllDiethBodiesInScene()
+    {
+        GameObject[] allObjects = FindObjectsOfType<GameObject>();
+
+        foreach (GameObject obj in allObjects)
+        {
+            if (obj.name == "DiethBody(Clone)")
+            {
+                Destroy(obj);
+            }
         }
     }
 }
