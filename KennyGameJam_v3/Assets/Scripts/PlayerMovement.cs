@@ -13,6 +13,9 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
     public float jumpForce = 10f;
     public float fallSpeed = 10f; // New fall speed variable
+    public Transform[] groundChecks; // Array of ground check points
+    public LayerMask groundLayer;
+    private float groundCheckRadius = 0.1f;
 
     public Rigidbody2D rb;
     public bool isGrounded;
@@ -43,6 +46,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        isGrounded = CheckIfGrounded();
         // Check if the player is grounded
         playerAnimations.SetBool("IsJumping", !isGrounded);
 
@@ -79,6 +83,18 @@ public class PlayerMovement : MonoBehaviour
         {
             DestroyAllBodies();
         }
+    }
+
+    bool CheckIfGrounded()
+    {
+        foreach (Transform groundCheck in groundChecks)
+        {
+            if (Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer))
+            {
+                return true;
+            }
+        }
+        return false;
     }
 
     public void SpawnBody()
