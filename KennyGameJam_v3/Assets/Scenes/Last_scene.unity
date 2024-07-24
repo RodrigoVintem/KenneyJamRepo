@@ -216,7 +216,7 @@ GameObject:
   - component: {fileID: 497498411}
   m_Layer: 8
   m_Name: Collisions_map
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4556,7 +4556,7 @@ MonoBehaviour:
   Body: {fileID: 5775521898686937739, guid: a1ca0a1f1688b9a4ba230becebe5f776, type: 3}
   playerAnimations: {fileID: 1640023398}
   moveSpeed: 8
-  jumpForce: 12
+  jumpForce: 13
   fallSpeed: 10
   groundChecks:
   - {fileID: 177358498}
