@@ -578,14 +578,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10bdd14e2d8a1ad4f8f1aabdbfc3e539, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PlayerSounds: {fileID: 0}
+  SpawnPoint: {fileID: 0}
   Body: {fileID: 5775521898686937739, guid: a1ca0a1f1688b9a4ba230becebe5f776, type: 3}
   playerAnimations: {fileID: 953365230}
   moveSpeed: 5
   jumpForce: 7
-  groundCheck: {fileID: 116205986}
+  fallSpeed: 10
+  groundChecks: []
   groundLayer:
     serializedVersion: 2
     m_Bits: 256
+  rb: {fileID: 0}
+  isGrounded: 0
 --- !u!212 &953365227
 SpriteRenderer:
   m_ObjectHideFlags: 0
